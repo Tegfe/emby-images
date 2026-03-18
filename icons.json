@@ -1,9 +1,9 @@
 {
-  "id": "Tegfe-Emby-IconPack",
-  "name": "Tegfe 高清 Emby 图标包",
+  "id": "MyEmby",
+  "name": "MyEmby",
   "author": "Tegfe",
   "version": "1.0",
-  "description": "自动同步更新 | 420+ 影视、动漫、流媒体图标",
+  "description": "MyEmby 专属图标包 | 全自动更新",
   "icons": [
 {"name":"T","url":"https://raw.githubusercontent.com/Tegfe/emby-images/main/images/T.PNG"},
 {"name":"F","url":"https://raw.githubusercontent.com/Tegfe/emby-images/main/images/F.PNG"},
