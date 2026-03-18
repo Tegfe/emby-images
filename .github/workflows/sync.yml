@@ -21,13 +21,12 @@ jobs:
       - name: 安装依赖
         run: pip install requests
 
-      - name: 自动下载并上传图片
+      - name: 自动下载并上传到 GitHub
         run: |
           python -c '
           import json
           import requests
           import base64
-          import os
 
           JSON_URL = "https://emby-icon.vercel.app/TFEL-Emby.json"
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
@@ -57,16 +56,8 @@ jobs:
                       "Accept": "application/vnd.github.v3+json"
                   }
                   upload_url = f"https://api.github.com/repos/{REPO}/contents/{path}"
-                  r = requests.put(upload_url, json=payload, headers=headers)
+                  requests.put(upload_url, json=payload, headers=headers)
               except:
                   pass
-          print("同步完成")
+          print("✅ 同步完成！")
           '
-
-      - name: 提交到仓库
-        run: |
-          git config --global user.name "Tegfe"
-          git config --global user.email "129144436+Tegfe@users.noreply.github.com"
-          git add .
-          git commit -m "Auto sync icons" || true
-          git push
