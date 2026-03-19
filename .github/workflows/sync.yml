@@ -1,4 +1,4 @@
-name: MyEmby 自动下载图标并生成图标包
+name: MyEmby 自动下载图标 + 生成图标包
 on:
   workflow_dispatch:
   schedule:
@@ -28,6 +28,7 @@ jobs:
           import requests
           import base64
           import os
+          from datetime import datetime, timedelta
 
           # 配置
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
@@ -38,9 +39,10 @@ jobs:
               "Accept": "application/vnd.github.v3+json"
           }
 
-          # ==============================================
-          # 以后新增图标源，只需要在这里加一行链接即可！
-          # ==============================================
+          # 自动获取东八区时间（北京时间）
+          beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
+
+          # 图标源列表（以后只在这里加链接）
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
               "https://emby-icon.vercel.app/TFEL-Emby.json",
@@ -95,21 +97,20 @@ jobs:
                   print(f"拉取源失败: {e}")
                   pass
 
-          # 生成最终 JSON
+          # 生成最终 JSON（自动带更新时间）
           final_json = {
               "id": "MyEmby",
               "name": "MyEmby",
               "author": "Tegfe",
               "version": "1.0",
-              "description": "MyEmby 聚合图标包",
+              "description": f"MyEmby 聚合图标包 更新时间：{beijing_time}",
               "icons": all_icons
           }
           json_content = json.dumps(final_json, ensure_ascii=False, indent=2)
 
-          # 上传 icons.json（强制覆盖）
+          # 上传 icons.json
           json_upload_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
           
-          # 获取 sha 用于覆盖
           sha = None
           try:
               resp = requests.get(json_upload_url, headers=headers)
@@ -119,7 +120,7 @@ jobs:
               pass
 
           payload_json = {
-              "message": "Update icons.json",
+              "message": f"Update icons.json {beijing_time}",
               "content": base64.b64encode(json_content.encode("utf-8")).decode()
           }
           if sha:
@@ -128,5 +129,6 @@ jobs:
           resp = requests.put(json_upload_url, json=payload_json, headers=headers)
           
           print(f"✅ 同步完成！总计 {len(all_icons)} 个图标")
+          print(f"⏰ 更新时间：{beijing_time}")
           print(f"📄 icons.json 上传状态码: {resp.status_code}")
           '
