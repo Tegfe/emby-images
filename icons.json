@@ -3,7 +3,7 @@
   "name": "MyEmby",
   "author": "Tegfe",
   "version": "1.0",
-  "description": "MyEmby 聚合图标包 更新时间：2026-03-19 11:05",
+  "description": "MyEmby 聚合图标包 更新时间：2026-03-19 20:52",
   "icons": [
     {
       "name": "A24",
@@ -699,7 +699,15 @@
     },
     {
       "name": "CineTrail YingJi",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CineTrail.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CineTrail-01.png"
+    },
+    {
+      "name": "CineTrail YingJi",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CineTrail-02.png"
+    },
+    {
+      "name": "CineTrail YingJi",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CineTrail-03.png"
     },
     {
       "name": "ClimbHigh DengGao",
