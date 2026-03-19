@@ -34,6 +34,8 @@ jobs:
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
           REPO = "Tegfe/emby-images"
           RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
+          # 你要加的前缀
+          URL_PREFIX = "https://wget.la/"
           headers = {
               "Authorization": f"Bearer {GITHUB_TOKEN}",
               "Accept": "application/vnd.github.v3+json"
@@ -42,12 +44,11 @@ jobs:
           # 自动获取东八区时间（北京时间）
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
 
-          # 图标源列表（以后只在这里加链接）
+          # 图标源列表
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
               "https://emby-icon.vercel.app/TFEL-Emby.json",
-              "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/Forward/tubiao.json",
-              "https://raw.githubusercontent.com/sooyaaabo/IconLibrary/main/Emby-Icon.json"
+              "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/Forward/tubiao.json"
           ]
 
           all_icons = []
@@ -86,10 +87,10 @@ jobs:
                           upload = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
                           resp = requests.put(upload, json=payload, headers=headers)
 
-                          # 加入图标列表
+                          # 加入列表 + 自动加前缀
                           all_icons.append({
                               "name": name,
-                              "url": RAW_URL + new_fn
+                              "url": URL_PREFIX + RAW_URL + new_fn
                           })
                       except Exception as e:
                           print(f"处理单个图标失败: {e}")
@@ -98,8 +99,12 @@ jobs:
                   print(f"拉取源失败: {e}")
                   pass
 
-          # ====================== 关键修改：按名称字母排序 ======================
-          all_icons.sort(key=lambda x: x["name"].lower())  # 不区分大小写 A→Z
+          # 字母在前，数字在后
+          def sort_key(item):
+              name = item["name"].lower()
+              return (2, name) if name and name[0].isdigit() else (1, name)
+
+          all_icons.sort(key=sort_key)
 
           # 生成最终 JSON
           final_json = {
