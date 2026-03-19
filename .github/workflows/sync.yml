@@ -98,7 +98,7 @@ jobs:
               "name": "MyEmby",
               "author": "Tegfe",
               "version": "1.0",
-              "description": "MyEmby 双源合并图标包",
+              "description": "MyEmby 聚合图标包",
               "icons": all_icons
           }
           json_content = json.dumps(final_json, ensure_ascii=False, indent=2)
