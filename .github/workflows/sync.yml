@@ -35,7 +35,7 @@ jobs:
           REPO = "Tegfe/emby-images"
           RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
           # 你要加的前缀
-          URL_PREFIX = "https://wget.la/"
+          URL_PREFIX = "https://hk.gh-proxy.org/"
           headers = {
               "Authorization": f"Bearer {GITHUB_TOKEN}",
               "Accept": "application/vnd.github.v3+json"
