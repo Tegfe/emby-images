@@ -97,7 +97,10 @@ jobs:
                   print(f"拉取源失败: {e}")
                   pass
 
-          # 生成最终 JSON（自动带更新时间）
+          # ====================== 关键修改：按名称字母排序 ======================
+          all_icons.sort(key=lambda x: x["name"].lower())  # 不区分大小写 A→Z
+
+          # 生成最终 JSON
           final_json = {
               "id": "MyEmby",
               "name": "MyEmby",
