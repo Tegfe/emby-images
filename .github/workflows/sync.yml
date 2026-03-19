@@ -28,9 +28,10 @@ jobs:
           import requests
           import base64
           import os
+          import re
           from datetime import datetime, timedelta
 
-          # 配置
+          # ===================== 配置 =====================
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
           REPO = "Tegfe/emby-images"
           RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
@@ -39,10 +40,10 @@ jobs:
               "Accept": "application/vnd.github.v3+json"
           }
 
-          # 自动获取东八区时间（北京时间）
+          # 东八区时间
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
 
-          # 图标源列表（以后只在这里加链接）
+          # 图标源
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
               "https://emby-icon.vercel.app/TFEL-Emby.json",
@@ -52,6 +53,15 @@ jobs:
 
           all_icons = []
           exist_files = set()
+
+          # 排序函数
+          def sort_key(item):
+              name = item["name"].lower()
+              is_digit = name[0].isdigit() if name else False
+              return (
+                  0 if is_digit else 1,
+                  [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", name)]
+              )
 
           # 遍历下载
           for url in SOURCES:
@@ -64,7 +74,7 @@ jobs:
                           if not name or not img_url:
                               continue
 
-                          # 处理文件名
+                          # 处理文件名防重
                           fn = img_url.split("/")[-1].split("?")[0]
                           name_only, ext = os.path.splitext(fn)
                           new_fn = fn
@@ -78,37 +88,28 @@ jobs:
                           r = requests.get(img_url, timeout=15)
                           r.raise_for_status()
 
-                          # 上传图片到 GitHub
+                          # 上传到 GitHub
                           payload = {
                               "message": f"Sync {new_fn}",
                               "content": base64.b64encode(r.content).decode()
                           }
-                          upload = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
-                          resp = requests.put(upload, json=payload, headers=headers)
+                          upload_url = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
+                          requests.put(upload_url, json=payload, headers=headers)
 
-                          # 加入图标列表
+                          # 加入列表
                           all_icons.append({
                               "name": name,
                               "url": RAW_URL + new_fn
                           })
                       except Exception as e:
-                          print(f"处理单个图标失败: {e}")
-                          pass
+                          print(f"⚠️  处理图标失败: {e}")
               except Exception as e:
-                  print(f"拉取源失败: {e}")
-                  pass
+                  print(f"⚠️  拉取源失败: {e}")
 
-          # ====================== 排序规则：字母在前，数字在后 ======================
-          def sort_key(item):
-              name = item["name"].lower()
-              if name and name[0].isdigit():
-                  return (2, name)
-              else:
-                  return (1, name)
-
+          # 排序
           all_icons.sort(key=sort_key)
 
-          # 生成最终 JSON
+          # 生成 JSON
           final_json = {
               "id": "MyEmby",
               "name": "MyEmby",
@@ -121,7 +122,6 @@ jobs:
 
           # 上传 icons.json
           json_upload_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
-          
           sha = None
           try:
               resp = requests.get(json_upload_url, headers=headers)
@@ -138,8 +138,12 @@ jobs:
               payload_json["sha"] = sha
 
           resp = requests.put(json_upload_url, json=payload_json, headers=headers)
-          
+
+          # 输出结果
+          print("="*50)
           print(f"✅ 同步完成！总计 {len(all_icons)} 个图标")
           print(f"⏰ 更新时间：{beijing_time}")
-          print(f"📄 icons.json 上传状态码: {resp.status_code}")
+          print(f"📦 图标包地址：https://raw.githubusercontent.com/{REPO}/main/icons.json")
+          print(f"📄 上传状态码：{resp.status_code}")
+          print("="*50)
           '
