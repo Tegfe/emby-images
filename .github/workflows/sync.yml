@@ -33,6 +33,10 @@ jobs:
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
           REPO = "Tegfe/emby-images"
           RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
+          headers = {
+              "Authorization": f"Bearer {GITHUB_TOKEN}",
+              "Accept": "application/vnd.github.v3+json"
+          }
 
           # 两个源
           SOURCES = [
@@ -64,30 +68,31 @@ jobs:
                               i += 1
                           exist_files.add(new_fn)
 
-                          # 下载上传图片
+                          # 下载图片
                           r = requests.get(img_url, timeout=15)
+                          r.raise_for_status()
+
+                          # 上传图片到 GitHub
                           payload = {
                               "message": f"Sync {new_fn}",
                               "content": base64.b64encode(r.content).decode()
                           }
-                          headers = {
-                              "Authorization": f"Bearer {GITHUB_TOKEN}",
-                              "Accept": "application/vnd.github.v3+json"
-                          }
                           upload = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
-                          requests.put(upload, json=payload, headers=headers)
+                          resp = requests.put(upload, json=payload, headers=headers)
 
                           # 加入图标列表
                           all_icons.append({
                               "name": name,
                               "url": RAW_URL + new_fn
                           })
-                      except:
+                      except Exception as e:
+                          print(f"处理单个图标失败: {e}")
                           pass
-              except:
+              except Exception as e:
+                  print(f"拉取源失败: {e}")
                   pass
 
-          # 生成最终 JSON 并直接上传
+          # 生成最终 JSON
           final_json = {
               "id": "MyEmby",
               "name": "MyEmby",
@@ -97,12 +102,29 @@ jobs:
               "icons": all_icons
           }
           json_content = json.dumps(final_json, ensure_ascii=False, indent=2)
+
+          # 上传 icons.json（强制覆盖，解决 sha 缺失问题）
+          json_upload_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
+          
+          # 先获取现有文件 sha（必须，否则无法覆盖）
+          sha = None
+          try:
+              resp = requests.get(json_upload_url, headers=headers)
+              if resp.status_code == 200:
+                  sha = resp.json().get("sha")
+          except:
+              pass
+
+          # 上传
           payload_json = {
               "message": "Update icons.json",
-              "content": base64.b64encode(json_content.encode()).decode()
+              "content": base64.b64encode(json_content.encode("utf-8")).decode()
           }
-          json_upload = f"https://api.github.com/repos/{REPO}/contents/icons.json"
-          requests.put(json_upload, json=payload_json, headers=headers)
+          if sha:
+              payload_json["sha"] = sha  # 覆盖必须带 sha
 
+          resp = requests.put(json_upload_url, json=payload_json, headers=headers)
+          
           print(f"✅ 同步完成！总计 {len(all_icons)} 个图标")
+          print(f"📄 icons.json 上传状态码: {resp.status_code}")
           '
