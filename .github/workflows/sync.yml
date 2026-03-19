@@ -40,8 +40,8 @@ jobs:
 
           # 两个源
           SOURCES = [
-              "https://emby-icon.vercel.app/TFEL-Emby.json",
-              "https://emby-icon.vercel.app/TFEL-Avatar.json"
+              "https://emby-icon.vercel.app/TFEL-Avatar.json",
+              "https://emby-icon.vercel.app/TFEL-Emby.json"
           ]
 
           all_icons = []
