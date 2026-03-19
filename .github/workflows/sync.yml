@@ -46,7 +46,8 @@ jobs:
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
               "https://emby-icon.vercel.app/TFEL-Emby.json",
-              "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/Forward/tubiao.json"
+              "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/Forward/tubiao.json",
+              "https://raw.githubusercontent.com/sooyaaabo/IconLibrary/main/Emby-Icon.json"
           ]
 
           all_icons = []
