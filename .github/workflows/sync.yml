@@ -1,4 +1,4 @@
-name: MyEmby 自动下载图标 + 生成图标包
+name: MyEmby 自动下载图标并生成图标包
 on:
   workflow_dispatch:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: 安装依赖
         run: pip install requests
 
-      - name: 下载双图标源 + 合成 MyEmby 图标包
+      - name: 下载多图标源 + 合成 MyEmby 图标包
         run: |
           python -c '
           import json
@@ -38,10 +38,13 @@ jobs:
               "Accept": "application/vnd.github.v3+json"
           }
 
-          # 两个源
+          # ==============================================
+          # 以后新增图标源，只需要在这里加一行链接即可！
+          # ==============================================
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
-              "https://emby-icon.vercel.app/TFEL-Emby.json"
+              "https://emby-icon.vercel.app/TFEL-Emby.json",
+              "https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/Forward/tubiao.json"
           ]
 
           all_icons = []
@@ -103,10 +106,10 @@ jobs:
           }
           json_content = json.dumps(final_json, ensure_ascii=False, indent=2)
 
-          # 上传 icons.json（强制覆盖，解决 sha 缺失问题）
+          # 上传 icons.json（强制覆盖）
           json_upload_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
           
-          # 先获取现有文件 sha（必须，否则无法覆盖）
+          # 获取 sha 用于覆盖
           sha = None
           try:
               resp = requests.get(json_upload_url, headers=headers)
@@ -115,13 +118,12 @@ jobs:
           except:
               pass
 
-          # 上传
           payload_json = {
               "message": "Update icons.json",
               "content": base64.b64encode(json_content.encode("utf-8")).decode()
           }
           if sha:
-              payload_json["sha"] = sha  # 覆盖必须带 sha
+              payload_json["sha"] = sha
 
           resp = requests.put(json_upload_url, json=payload_json, headers=headers)
           
