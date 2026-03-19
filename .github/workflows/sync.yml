@@ -99,10 +99,13 @@ jobs:
                   print(f"拉取源失败: {e}")
                   pass
 
-          # 字母在前，数字在后
+          # ====================== 排序规则：字母在前，数字在后 ======================
           def sort_key(item):
               name = item["name"].lower()
-              return (2, name) if name and name[0].isdigit() else (1, name)
+              if name and name[0].isdigit():
+                  return (2, name)
+              else:
+                  return (1, name)
 
           all_icons.sort(key=sort_key)
 
