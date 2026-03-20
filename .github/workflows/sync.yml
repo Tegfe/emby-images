@@ -46,7 +46,7 @@ jobs:
               "Accept": "application/vnd.github.v3+json"
           }
 
-          MAX_WORKERS = 8  # 并发数（建议 5~8）
+          MAX_WORKERS = 3  # 并发数（建议 5~8）
 
           # ===================== 时间 =====================
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
