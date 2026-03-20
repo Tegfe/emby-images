@@ -62,6 +62,7 @@ jobs:
           all_icons = []
           exist_files = set()
           lock = Lock()
+          updated_count = 0  # 👈 只加这一行
 
           # ===================== 预加载 GitHub 文件 =====================
           repo_files = {}
@@ -85,6 +86,7 @@ jobs:
 
           # ===================== 处理单个图标 =====================
           def process_icon(item):
+              global updated_count  # 👈 只加这一行
               try:
                   name = item.get("name")
                   img_url = item.get("url")
@@ -129,6 +131,7 @@ jobs:
 
                       requests.put(upload_url, json=payload, headers=headers)
                       print(f"✅ 更新: {new_fn}")
+                      updated_count += 1  # 👈 只加这一行
 
                   return {
                       "name": name,
@@ -183,21 +186,28 @@ jobs:
           except:
               pass
 
-          payload = {
-              "message": f"Update icons.json {beijing_time}",
-              "content": base64.b64encode(json_content.encode()).decode()
-          }
+          # 👈 👇 下面是关键判断：有更新才上传
+          resp = None
+          if updated_count > 0:
+              payload = {
+                  "message": f"Update icons.json {beijing_time}",
+                  "content": base64.b64encode(json_content.encode()).decode()
+              }
 
-          if sha:
-              payload["sha"] = sha
+              if sha:
+                  payload["sha"] = sha
 
-          resp = requests.put(json_url, json=payload, headers=headers)
+              resp = requests.put(json_url, json=payload, headers=headers)
+          else:
+              print("ℹ️ 无图片更新，跳过 icons.json 上传")
 
           # ===================== 输出 =====================
           print("="*50)
           print(f"✅ 完成，总图标: {len(all_icons)}")
+          print(f"🆕 本次更新图片: {updated_count}")
           print(f"⚡ 并发线程: {MAX_WORKERS}")
           print(f"⏰ 更新时间: {beijing_time}")
-          print(f"📄 状态码: {resp.status_code}")
+          if resp:
+              print(f"📄 JSON 状态码: {resp.status_code}")
           print("="*50)
           EOF
