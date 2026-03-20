@@ -179,18 +179,26 @@ jobs:
           if sha:
               payload["sha"] = sha
 
+          resp = None
           for attempt in range(5):
-              resp = requests.put(json_url, json=payload, headers=headers)
-              if resp.status_code in (200, 201):
-                  break
-              time.sleep(3 ** attempt)
+              try:
+                  resp = requests.put(json_url, json=payload, headers=headers, timeout=15)
+                  if resp.status_code in (200, 201):
+                      break
+                  time.sleep(3 ** attempt)
+              except Exception as e:
+                  print(f"重试 {attempt+1} 失败: {e}")
+                  time.sleep(3 ** attempt)
 
           # ===================== 输出 =====================
           print("="*50)
           print(f"✅ 完成，总图标: {len(all_icons)}")
           print(f"⚡ 并发线程: {MAX_WORKERS}")
           print(f"⏰ 更新时间: {beijing_time}")
-          print(f"📄 状态码: {resp.status_code if resp else 'NO_RESP'}")
+          if resp:
+              print(f"📄 状态码: {resp.status_code}")
+          else:
+              print(f"📄 状态码: 请求异常")
           print("="*50)
           EOF
         shell: /usr/bin/bash -e {0}
