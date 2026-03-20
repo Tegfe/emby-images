@@ -1,29 +1,23 @@
-name: MyEmby 自动下载图标 + 生成图标包
+name: Sync Emby Icons
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # 手动运行
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: "0 0 * * *" # 每天 UTC 0 点自动运行（北京时间 8 点）
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: 拉取代码
-        uses: actions/checkout@v4
-
-      - name: 设置 Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: 安装依赖
+      - name: Install requests
         run: pip install requests
 
-      - name: 执行同步
+      - name: Run Sync Script
         run: |
           python << 'EOF'
           import json
@@ -37,17 +31,21 @@ jobs:
           from threading import Lock
 
           # ===================== 配置 =====================
-          GITHUB_TOKEN = "***"
+          GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
           REPO = "Tegfe/emby-images"
           RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
+
           headers = {
-              "Authorization": f"***",
+              "Authorization": f"token {GITHUB_TOKEN}",
               "Accept": "application/vnd.github.v3+json"
           }
+
           MAX_WORKERS = 8
+
+          # ===================== 时间 =====================
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
 
-          # 源列表
+          # ===================== 图标源 =====================
           SOURCES = [
               "https://emby-icon.vercel.app/TFEL-Avatar.json",
               "https://emby-icon.vercel.app/TFEL-Emby.json",
@@ -58,58 +56,12 @@ jobs:
           all_icons = []
           exist_files = set()
           lock = Lock()
-          updated_count = 0
-          source_changed = False  # 标记：源有没有变化
 
-          # ===================== 第一步：拉取最新源列表 =====================
-          print("🔍 开始检查源图标列表...")
-          new_task_set = set()
-          tasks = []
-
-          for url in SOURCES:
-              try:
-                  data = requests.get(url, timeout=15).json()
-                  icons = data.get("icons", [])
-                  for item in icons:
-                      # 用 name + url 唯一标记一个图标
-                      key = f"{item.get('name')}|{item.get('url')}"
-                      new_task_set.add(key)
-                  tasks.extend(icons)
-              except Exception as e:
-                  print(f"⚠️ 拉取源失败: {e}")
-
-          # ===================== 第二步：对比本地 icons.json 判断是否变化 =====================
-          try:
-              old_json_url = f"https://raw.githubusercontent.com/{REPO}/main/icons.json"
-              old_resp = requests.get(old_json_url, timeout=10)
-              if old_resp.status_code == 200:
-                  old_data = old_resp.json()
-                  old_icons = old_data.get("icons", [])
-                  old_set = set()
-                  for item in old_icons:
-                      old_key = f"{item.get('name')}|{item.get('url')}"
-                      old_set.add(old_key)
-                  # 对比：不一样就说明源更新了
-                  if new_task_set != old_set:
-                      source_changed = True
-              else:
-                  source_changed = True
-          except:
-              source_changed = True
-
-          # 如果源没变化，直接退出
-          if not source_changed:
-              print("✅ 源图标无变化，无需更新")
-              print("==================================================")
-              exit()
-
-          print("🆕 检测到图标源有变化，开始同步...")
-
-          # ===================== 预加载仓库文件 =====================
+          # ===================== 预加载 GitHub 文件 =====================
           repo_files = {}
           try:
               api_url = f"https://api.github.com/repos/{REPO}/contents/images"
-              resp = requests.get(api_url, headers=headers, timeout=15)
+              resp = requests.get(api_url, headers=headers)
               if resp.status_code == 200:
                   for f in resp.json():
                       repo_files[f["name"]] = f["sha"]
@@ -125,15 +77,15 @@ jobs:
                   [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", name)]
               )
 
-          # ===================== 处理图标 =====================
+          # ===================== 处理单个图标 =====================
           def process_icon(item):
-              global updated_count
               try:
                   name = item.get("name")
                   img_url = item.get("url")
                   if not name or not img_url:
                       return None
 
+                  # ===== 文件名处理（线程安全）=====
                   fn = img_url.split("/")[-1].split("?")[0]
                   name_only, ext = os.path.splitext(fn)
 
@@ -145,40 +97,64 @@ jobs:
                           i += 1
                       exist_files.add(new_fn)
 
+                  # ===== 下载 =====
                   r = requests.get(img_url, timeout=15)
                   r.raise_for_status()
+
+                  # ===== 本地 hash =====
                   new_sha = hashlib.sha1(r.content).hexdigest()
+
+                  # ===== 远程 hash =====
                   remote_sha = repo_files.get(new_fn)
+
                   upload_url = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
 
-                  if remote_sha != new_sha:
+                  # ===== 增量判断 =====
+                  if remote_sha == new_sha:
+                      print(f"⏭️ 跳过: {new_fn}")
+                  else:
                       payload = {
                           "message": f"Sync {new_fn}",
                           "content": base64.b64encode(r.content).decode()
                       }
+
                       if remote_sha:
                           payload["sha"] = remote_sha
+
                       requests.put(upload_url, json=payload, headers=headers)
                       print(f"✅ 更新: {new_fn}")
-                      updated_count += 1
-                  else:
-                      print(f"⏭️ 跳过: {new_fn}")
 
-                  return {"name": name, "url": RAW_URL + new_fn}
+                  return {
+                      "name": name,
+                      "url": RAW_URL + new_fn
+                  }
+
               except Exception as e:
                   print(f"⚠️ 处理失败: {e}")
                   return None
 
+          # ===================== 收集任务 =====================
+          tasks = []
+          for url in SOURCES:
+              try:
+                  data = requests.get(url, timeout=20).json()
+                  tasks.extend(data.get("icons", []))
+              except Exception as e:
+                  print(f"⚠️ 拉取源失败: {e}")
+
           # ===================== 并发执行 =====================
           with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
               futures = [executor.submit(process_icon, item) for item in tasks]
-              for future in as_completed(futures):
-                  res = future.result()
-                  if res:
-                      all_icons.append(res)
 
-          # ===================== 排序 + 生成 JSON =====================
+              for future in as_completed(futures):
+                  result = future.result()
+                  if result:
+                      all_icons.append(result)
+
+          # ===================== 排序 =====================
           all_icons.sort(key=sort_key)
+
+          # ===================== 生成 JSON =====================
           final_json = {
               "id": "MyEmby",
               "name": "MyEmby",
@@ -187,10 +163,12 @@ jobs:
               "description": f"MyEmby 聚合图标包 更新时间：{beijing_time}",
               "icons": all_icons
           }
+
           json_content = json.dumps(final_json, ensure_ascii=False, indent=2)
 
-          # ===================== 上传 JSON =====================
+          # ===================== 上传 icons.json =====================
           json_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
+
           sha = None
           try:
               resp = requests.get(json_url, headers=headers)
@@ -203,15 +181,20 @@ jobs:
               "message": f"Update icons.json {beijing_time}",
               "content": base64.b64encode(json_content.encode()).decode()
           }
+
           if sha:
               payload["sha"] = sha
-          requests.put(json_url, json=payload, headers=headers)
+
+          resp = requests.put(json_url, json=payload, headers=headers)
 
           # ===================== 输出 =====================
-          print("==================================================")
-          print(f"✅ 同步完成")
-          print(f"🆕 总图标: {len(all_icons)}")
-          print(f"🆕 本次更新图片: {updated_count}")
+          print("="*50)
+          print(f"✅ 完成，总图标: {len(all_icons)}")
+          print(f"⚡ 并发线程: {MAX_WORKERS}")
           print(f"⏰ 更新时间: {beijing_time}")
-          print("==================================================")
+          print(f"📄 状态码: {resp.status_code}")
+          print("="*50)
           EOF
+        shell: /usr/bin/bash -e {0}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
