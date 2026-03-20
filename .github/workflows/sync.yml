@@ -1,9 +1,9 @@
 name: Sync Emby Icons
 
 on:
-  workflow_dispatch:   # 手动运行
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # 每天 UTC 0 点自动运行（北京时间 8 点）
+    - cron: "0 0 * * *"
 
 jobs:
   sync:
@@ -26,6 +26,7 @@ jobs:
           import os
           import re
           import hashlib
+          import time
           from datetime import datetime, timedelta
           from concurrent.futures import ThreadPoolExecutor, as_completed
           from threading import Lock
@@ -40,7 +41,7 @@ jobs:
               "Accept": "application/vnd.github.v3+json"
           }
 
-          MAX_WORKERS = 8
+          MAX_WORKERS = 5
 
           # ===================== 时间 =====================
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
@@ -85,7 +86,6 @@ jobs:
                   if not name or not img_url:
                       return None
 
-                  # ===== 文件名处理（线程安全）=====
                   fn = img_url.split("/")[-1].split("?")[0]
                   name_only, ext = os.path.splitext(fn)
 
@@ -97,19 +97,12 @@ jobs:
                           i += 1
                       exist_files.add(new_fn)
 
-                  # ===== 下载 =====
                   r = requests.get(img_url, timeout=15)
                   r.raise_for_status()
-
-                  # ===== 本地 hash =====
                   new_sha = hashlib.sha1(r.content).hexdigest()
-
-                  # ===== 远程 hash =====
                   remote_sha = repo_files.get(new_fn)
-
                   upload_url = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
 
-                  # ===== 增量判断 =====
                   if remote_sha == new_sha:
                       print(f"⏭️ 跳过: {new_fn}")
                   else:
@@ -117,11 +110,15 @@ jobs:
                           "message": f"Sync {new_fn}",
                           "content": base64.b64encode(r.content).decode()
                       }
-
                       if remote_sha:
                           payload["sha"] = remote_sha
 
-                      requests.put(upload_url, json=payload, headers=headers)
+                      for attempt in range(3):
+                          res = requests.put(upload_url, json=payload, headers=headers)
+                          if res.status_code not in (429, 500):
+                              break
+                          time.sleep(2 ** attempt)
+
                       print(f"✅ 更新: {new_fn}")
 
                   return {
@@ -145,7 +142,6 @@ jobs:
           # ===================== 并发执行 =====================
           with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
               futures = [executor.submit(process_icon, item) for item in tasks]
-
               for future in as_completed(futures):
                   result = future.result()
                   if result:
@@ -168,7 +164,6 @@ jobs:
 
           # ===================== 上传 icons.json =====================
           json_url = f"https://api.github.com/repos/{REPO}/contents/icons.json"
-
           sha = None
           try:
               resp = requests.get(json_url, headers=headers)
@@ -181,18 +176,21 @@ jobs:
               "message": f"Update icons.json {beijing_time}",
               "content": base64.b64encode(json_content.encode()).decode()
           }
-
           if sha:
               payload["sha"] = sha
 
-          resp = requests.put(json_url, json=payload, headers=headers)
+          for attempt in range(5):
+              resp = requests.put(json_url, json=payload, headers=headers)
+              if resp.status_code in (200, 201):
+                  break
+              time.sleep(3 ** attempt)
 
           # ===================== 输出 =====================
           print("="*50)
           print(f"✅ 完成，总图标: {len(all_icons)}")
           print(f"⚡ 并发线程: {MAX_WORKERS}")
           print(f"⏰ 更新时间: {beijing_time}")
-          print(f"📄 状态码: {resp.status_code}")
+          print(f"📄 状态码: {resp.status_code if resp else 'NO_RESP'}")
           print("="*50)
           EOF
         shell: /usr/bin/bash -e {0}
