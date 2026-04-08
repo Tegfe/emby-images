@@ -3,7 +3,7 @@
   "name": "MyEmby",
   "author": "Tegfe",
   "version": "1.0",
-  "description": "MyEmby 聚合图标包 更新时间：2026-04-08 09:29",
+  "description": "MyEmby 聚合图标包 更新时间：2026-04-08 21:02",
   "icons": [
     {
       "name": "0_gikerwan",
@@ -487,10 +487,6 @@
     },
     {
       "name": "404NotFound",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-02.png"
-    },
-    {
-      "name": "404NotFound",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-01.png"
     },
     {
@@ -499,11 +495,15 @@
     },
     {
       "name": "404NotFound",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-02.png"
     },
     {
       "name": "404NotFound",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-04.png"
+    },
+    {
+      "name": "404NotFound",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/404NotFound-05.png"
     },
     {
       "name": "1111",
@@ -659,19 +659,19 @@
     },
     {
       "name": "AniSaga",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-01.png"
-    },
-    {
-      "name": "AniSaga",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-02.png"
     },
     {
       "name": "AniSaga",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-01.png"
     },
     {
       "name": "AniSaga",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-03.png"
+    },
+    {
+      "name": "AniSaga",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-04.png"
     },
     {
       "name": "Anisaga_1",
@@ -767,10 +767,6 @@
     },
     {
       "name": "AskUniversal",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-02.png"
-    },
-    {
-      "name": "AskUniversal",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-03.png"
     },
     {
@@ -779,15 +775,19 @@
     },
     {
       "name": "AskUniversal",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-02.png"
+    },
+    {
+      "name": "AskUniversal",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-05.png"
     },
     {
       "name": "AskUniversal",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-06.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-07.png"
     },
     {
       "name": "AskUniversal",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-07.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskUniversal-06.png"
     },
     {
       "name": "AskUniversal",
@@ -946,6 +946,10 @@
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AWATV-01.png"
     },
     {
+      "name": "Ayanami_emby",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Ayanami_emby.png"
+    },
+    {
       "name": "BaiduNetDisk",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BaiduNetDisk.png"
     },
@@ -1095,11 +1099,11 @@
     },
     {
       "name": "BTYIN EFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BTYIN-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BTYIN-01.png"
     },
     {
       "name": "BTYIN EFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BTYIN-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BTYIN-02.png"
     },
     {
       "name": "Buchixiangcai",
@@ -1107,7 +1111,7 @@
     },
     {
       "name": "BuChiXiangCai BCXC",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BCXC-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BCXC-01.png"
     },
     {
       "name": "BuChiXiangCai BCXC",
@@ -1115,7 +1119,7 @@
     },
     {
       "name": "BuChiXiangCai BCXC",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BCXC-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/BCXC-03.png"
     },
     {
       "name": "BuChiXiangCai BCXC",
@@ -1875,6 +1879,10 @@
     },
     {
       "name": "EchoFlix",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-03.png"
+    },
+    {
+      "name": "EchoFlix",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-01.png"
     },
     {
@@ -1883,15 +1891,11 @@
     },
     {
       "name": "EchoFlix",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-05.png"
     },
     {
       "name": "EchoFlix",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-04.png"
-    },
-    {
-      "name": "EchoFlix",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-05.png"
     },
     {
       "name": "EchoFlix_1",
@@ -1947,11 +1951,11 @@
     },
     {
       "name": "Emby",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-02.png"
     },
     {
       "name": "Emby",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-01.png"
     },
     {
       "name": "EmbyClub MaoXiong",
@@ -1959,11 +1963,11 @@
     },
     {
       "name": "EmbyClub MaoXiong",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-03.png"
     },
     {
       "name": "EmbyClub MaoXiong",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-02.png"
     },
     {
       "name": "Embydada",
@@ -1971,11 +1975,11 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-02.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-01.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -1983,7 +1987,7 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-06.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -1991,7 +1995,7 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-06.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-05.png"
     },
     {
       "name": "EmbyPub ZhongDianZhan ZDZ",
@@ -2007,19 +2011,19 @@
     },
     {
       "name": "emos",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/emos-02.png"
-    },
-    {
-      "name": "emos",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/emos-01.png"
     },
     {
-      "name": "empn",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/empn-01.png"
+      "name": "emos",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/emos-02.png"
     },
     {
       "name": "empn",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/empn-02.png"
+    },
+    {
+      "name": "empn",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/empn-01.png"
     },
     {
       "name": "Eoos",
@@ -2103,11 +2107,11 @@
     },
     {
       "name": "FeiNiu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-01.png"
     },
     {
       "name": "FeiNiu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-02.png"
     },
     {
       "name": "Feiniu_1",
@@ -2155,11 +2159,11 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-03.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-02.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
@@ -2247,11 +2251,11 @@
     },
     {
       "name": "FuFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FufuEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FufuEmby-02.png"
     },
     {
       "name": "FuFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FufuEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FufuEmby-01.png"
     },
     {
       "name": "Fufu_91fu_porn",
@@ -2299,11 +2303,11 @@
     },
     {
       "name": "FWorks",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-02.png"
     },
     {
       "name": "FWorks",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-01.png"
     },
     {
       "name": "FWorks",
@@ -2375,11 +2379,11 @@
     },
     {
       "name": "GIDD JiDao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-01.png"
     },
     {
       "name": "GIDD JiDao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-02.png"
     },
     {
       "name": "Girlgirlove_dongman",
@@ -2427,11 +2431,11 @@
     },
     {
       "name": "HanDou",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-02.png"
     },
     {
       "name": "HanDou",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-01.png"
     },
     {
       "name": "HanDou",
@@ -2507,11 +2511,11 @@
     },
     {
       "name": "Hello NiHao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-06.png"
     },
     {
       "name": "Hello NiHao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-06.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-05.png"
     },
     {
       "name": "HelloBlock",
@@ -2523,7 +2527,7 @@
     },
     {
       "name": "HelloBlock Ryan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-03.png"
     },
     {
       "name": "HelloBlock Ryan",
@@ -2531,7 +2535,7 @@
     },
     {
       "name": "HelloBlock Ryan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-04.png"
     },
     {
       "name": "HelloBlock Ryan",
@@ -2599,11 +2603,11 @@
     },
     {
       "name": "Hohai",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HohaiEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HohaiEmby-01.png"
     },
     {
       "name": "Hohai",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HohaiEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HohaiEmby-02.png"
     },
     {
       "name": "HoHai_Lite",
@@ -2823,11 +2827,11 @@
     },
     {
       "name": "JingZhe",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JingzheEmby-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JingzheEmby-04.png"
     },
     {
       "name": "JingZhe",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JingzheEmby-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JingzheEmby-03.png"
     },
     {
       "name": "JingZhe",
@@ -2867,11 +2871,11 @@
     },
     {
       "name": "July",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JulyEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JulyEmby-02.png"
     },
     {
       "name": "July",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JulyEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/JulyEmby-01.png"
     },
     {
       "name": "July",
@@ -2887,15 +2891,15 @@
     },
     {
       "name": "KFCV50",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KFCV50Emby-02.png"
-    },
-    {
-      "name": "KFCV50",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KFCV50Emby-01.png"
     },
     {
       "name": "KFCV50",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KFCV50Emby-03.png"
+    },
+    {
+      "name": "KFCV50",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KFCV50Emby-02.png"
     },
     {
       "name": "Kiku",
@@ -2931,19 +2935,19 @@
     },
     {
       "name": "KL",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-02.png"
-    },
-    {
-      "name": "KL",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-01.png"
     },
     {
       "name": "KL",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-02.png"
     },
     {
       "name": "KL",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-04.png"
+    },
+    {
+      "name": "KL",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-03.png"
     },
     {
       "name": "KLemby",
@@ -2959,15 +2963,15 @@
     },
     {
       "name": "KuaiLeDaYa",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-04.png"
-    },
-    {
-      "name": "KuaiLeDaYa",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-03.png"
     },
     {
       "name": "KuaiLeDaYa",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-02.png"
+    },
+    {
+      "name": "KuaiLeDaYa",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-04.png"
     },
     {
       "name": "L",
@@ -3007,11 +3011,11 @@
     },
     {
       "name": "Le",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-02.png"
     },
     {
       "name": "Le",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-01.png"
     },
     {
       "name": "Lemby",
@@ -3051,19 +3055,19 @@
     },
     {
       "name": "LevildeLuminia",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-02.png"
-    },
-    {
-      "name": "LevildeLuminia",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-01.png"
     },
     {
       "name": "LevildeLuminia",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-02.png"
     },
     {
       "name": "LevildeLuminia",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-04.png"
+    },
+    {
+      "name": "LevildeLuminia",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-03.png"
     },
     {
       "name": "LianLian",
@@ -3091,11 +3095,11 @@
     },
     {
       "name": "Lily",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-01.png"
     },
     {
       "name": "Lily",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-02.png"
     },
     {
       "name": "Lily",
@@ -3119,11 +3123,11 @@
     },
     {
       "name": "Liminal LinJing",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-04.png"
     },
     {
       "name": "Liminal LinJing",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-03.png"
     },
     {
       "name": "Liminal LinJing",
@@ -3235,11 +3239,11 @@
     },
     {
       "name": "Loser 1111",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-01.png"
     },
     {
       "name": "Loser 1111",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-02.png"
     },
     {
       "name": "Loser 1111",
@@ -3295,11 +3299,11 @@
     },
     {
       "name": "Lyrebird",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-02.png"
     },
     {
       "name": "Lyrebird",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-01.png"
     },
     {
       "name": "Lyrebird",
@@ -3307,11 +3311,11 @@
     },
     {
       "name": "Lyrebird",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-05.png"
     },
     {
       "name": "Lyrebird",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Lyrebird-04.png"
     },
     {
       "name": "Lyrebird_1",
@@ -3335,11 +3339,11 @@
     },
     {
       "name": "MaiDangLao MDL",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-03.png"
     },
     {
       "name": "MaiDangLao MDL",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-02.png"
     },
     {
       "name": "Maidanglao_gongyi",
@@ -3419,11 +3423,11 @@
     },
     {
       "name": "ME",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-02.png"
     },
     {
       "name": "ME",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-01.png"
     },
     {
       "name": "ME",
@@ -3491,19 +3495,19 @@
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-02.png"
-    },
-    {
-      "name": "Meowfly FeiLeGeMiao",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-03.png"
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-02.png"
     },
     {
       "name": "Meowfly FeiLeGeMiao",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-04.png"
+    },
+    {
+      "name": "Meowfly FeiLeGeMiao",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-05.png"
     },
     {
       "name": "Meowfly_1",
@@ -3647,15 +3651,15 @@
     },
     {
       "name": "Mooncake YueBing",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-02.png"
-    },
-    {
-      "name": "Mooncake YueBing",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-03.png"
     },
     {
       "name": "Mooncake YueBing",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-04.png"
+    },
+    {
+      "name": "Mooncake YueBing",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-02.png"
     },
     {
       "name": "Mooncake YueBing",
@@ -3695,11 +3699,11 @@
     },
     {
       "name": "Msky",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MskyEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MskyEmby-02.png"
     },
     {
       "name": "Msky",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MskyEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MskyEmby-01.png"
     },
     {
       "name": "Msky_1",
@@ -3735,11 +3739,11 @@
     },
     {
       "name": "Nanflix TianNan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nanflix-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nanflix-02.png"
     },
     {
       "name": "Nanflix TianNan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nanflix-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nanflix-01.png"
     },
     {
       "name": "Nanflix_plus",
@@ -3803,11 +3807,11 @@
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-01.png"
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-02.png"
     },
     {
       "name": "NebulaMedia XingYun",
@@ -3823,11 +3827,11 @@
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-06.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-07.png"
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-07.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NebulaMedia-06.png"
     },
     {
       "name": "NebulaMedia XingYun",
@@ -3883,11 +3887,11 @@
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-01.png"
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-02.png"
     },
     {
       "name": "Nijigen ErCiYuan",
@@ -3896,10 +3900,6 @@
     {
       "name": "NiuBi",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi.PNG"
-    },
-    {
-      "name": "NiuBi",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-02.png"
     },
     {
       "name": "NiuBi",
@@ -3914,6 +3914,10 @@
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-04.png"
     },
     {
+      "name": "NiuBi",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-02.png"
+    },
+    {
       "name": "Now_tv_logo",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Now_tv_logo.png"
     },
@@ -3923,11 +3927,11 @@
     },
     {
       "name": "NSFW",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NSFWEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NSFWEmby-02.png"
     },
     {
       "name": "NSFW",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NSFWEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NSFWEmby-01.png"
     },
     {
       "name": "NSFW",
@@ -4083,11 +4087,11 @@
     },
     {
       "name": "OrigamiArt ZheZhi",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-03.png"
     },
     {
       "name": "OrigamiArt ZheZhi",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-02.png"
     },
     {
       "name": "Ouo",
@@ -4303,11 +4307,11 @@
     },
     {
       "name": "PiliPili",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-02.png"
     },
     {
       "name": "PiliPili",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-03.png"
     },
     {
       "name": "PiliPili",
@@ -4315,7 +4319,7 @@
     },
     {
       "name": "PiliPili",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-07.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-06.png"
     },
     {
       "name": "PiliPili",
@@ -4323,7 +4327,7 @@
     },
     {
       "name": "PiliPili",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-06.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-07.png"
     },
     {
       "name": "PiliPili_1",
@@ -4355,11 +4359,11 @@
     },
     {
       "name": "PinHaoFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Pinhaofu-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Pinhaofu-02.png"
     },
     {
       "name": "PinHaoFu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Pinhaofu-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Pinhaofu-01.png"
     },
     {
       "name": "Pixar",
@@ -4447,11 +4451,11 @@
     },
     {
       "name": "Plumber",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-01.png"
     },
     {
       "name": "Plumber",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-02.png"
     },
     {
       "name": "Plumber",
@@ -4459,11 +4463,11 @@
     },
     {
       "name": "Plumber",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-04.png"
     },
     {
       "name": "Plumber",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlumberEmby-05.png"
     },
     {
       "name": "Plumber",
@@ -4471,11 +4475,11 @@
     },
     {
       "name": "PlusEmby JieShuYueDui",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlusEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlusEmby-01.png"
     },
     {
       "name": "PlusEmby JieShuYueDui",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlusEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PlusEmby-02.png"
     },
     {
       "name": "PlusEmby JieShuYueDui",
@@ -4683,11 +4687,11 @@
     },
     {
       "name": "Roc",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-03.png"
     },
     {
       "name": "Roc",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-02.png"
     },
     {
       "name": "Roc",
@@ -4879,19 +4883,19 @@
     },
     {
       "name": "SaturDayPremium SDP",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayPremium-02.png"
-    },
-    {
-      "name": "SaturDayPremium SDP",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayPremium-01.png"
     },
     {
-      "name": "SaturDayXperience SDX",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayXperience-01.png"
+      "name": "SaturDayPremium SDP",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayPremium-02.png"
     },
     {
       "name": "SaturDayXperience SDX",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayXperience-02.png"
+    },
+    {
+      "name": "SaturDayXperience SDX",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayXperience-01.png"
     },
     {
       "name": "SDL",
@@ -4943,15 +4947,15 @@
     },
     {
       "name": "ShaYu",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-03.png"
+    },
+    {
+      "name": "ShaYu",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-01.png"
     },
     {
       "name": "ShaYu",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-02.png"
-    },
-    {
-      "name": "ShaYu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-03.png"
     },
     {
       "name": "ShaYu",
@@ -5259,11 +5263,11 @@
     },
     {
       "name": "TanHua",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-04.png"
     },
     {
       "name": "TanHua",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-03.png"
     },
     {
       "name": "Tanhua_cq",
@@ -5271,11 +5275,11 @@
     },
     {
       "name": "TanHuaTV",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-01.png"
     },
     {
       "name": "TanHuaTV",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/TanhuaTV-02.png"
     },
     {
       "name": "Tank",
@@ -5479,11 +5483,11 @@
     },
     {
       "name": "Unbound WoShenWuJu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-02.png"
     },
     {
       "name": "Unbound WoShenWuJu",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-01.png"
     },
     {
       "name": "Unbound WoShenWuJu",
@@ -5579,11 +5583,11 @@
     },
     {
       "name": "W",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-01.png"
     },
     {
       "name": "W",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-02.png"
     },
     {
       "name": "W",
@@ -5635,11 +5639,11 @@
     },
     {
       "name": "WenJian",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-01.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-02.png"
     },
     {
       "name": "WenJian",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-01.png"
     },
     {
       "name": "WenJian",
@@ -5647,11 +5651,11 @@
     },
     {
       "name": "WenJian",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-05.png"
     },
     {
       "name": "WenJian",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-05.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Wenjian-04.png"
     },
     {
       "name": "Wenjian1",
@@ -5919,15 +5923,15 @@
     },
     {
       "name": "Yomo",
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-02.png"
+    },
+    {
+      "name": "Yomo",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-03.png"
     },
     {
       "name": "Yomo",
       "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-04.png"
-    },
-    {
-      "name": "Yomo",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-02.png"
     },
     {
       "name": "Youku",
@@ -5947,11 +5951,11 @@
     },
     {
       "name": "Youno",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-02.png"
     },
     {
       "name": "Youno",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-03.png"
     },
     {
       "name": "YounoPlus",
@@ -6043,11 +6047,11 @@
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-04.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-03.png"
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-04.png"
     },
     {
       "name": "YueZhiXuan",
@@ -6167,11 +6171,11 @@
     },
     {
       "name": "ZhouSanWan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZhouSanWan-03.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZhouSanWan-02.png"
     },
     {
       "name": "ZhouSanWan",
-      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZhouSanWan-02.png"
+      "url": "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZhouSanWan-03.png"
     },
     {
       "name": "ZhuJiuYingHua",
