@@ -39,7 +39,8 @@ jobs:
           # ===================== 配置 =====================
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
           REPO = "Tegfe/emby-images"
-          RAW_URL = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
+          # 这里改成 jsdelivr 基础链接
+          CDN_URL = "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/"
 
           headers = {
               "Authorization": f"Bearer {GITHUB_TOKEN}",
@@ -132,7 +133,8 @@ jobs:
 
                   return {
                       "name": name,
-                      "url": RAW_URL + new_fn
+                      # 这里使用 CDN 链接
+                      "url": CDN_URL + new_fn
                   }
 
               except Exception as e:
