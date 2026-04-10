@@ -3,7 +3,7 @@
   "name": "MyEmby",
   "author": "Tegfe",
   "version": "1.0",
-  "description": "MyEmby 聚合图标包 更新时间：2026-04-10 09:46",
+  "description": "MyEmby 聚合图标包 更新时间：2026-04-10 20:50",
   "icons": [
     {
       "name": "0_gikerwan",
@@ -447,11 +447,11 @@
     },
     {
       "name": "105° Ciallo",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/105-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/105-02.png"
     },
     {
       "name": "105° Ciallo",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/105-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/105-03.png"
     },
     {
       "name": "105° Ciallo",
@@ -499,11 +499,11 @@
     },
     {
       "name": "404NotFound",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/404NotFound-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/404NotFound-05.png"
     },
     {
       "name": "404NotFound",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/404NotFound-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/404NotFound-04.png"
     },
     {
       "name": "1111",
@@ -623,11 +623,11 @@
     },
     {
       "name": "AlphaTVOversea",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AlphaTVOversea-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AlphaTVOversea-03.png"
     },
     {
       "name": "AlphaTVOversea",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AlphaTVOversea-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AlphaTVOversea-02.png"
     },
     {
       "name": "Amc_plus",
@@ -667,11 +667,11 @@
     },
     {
       "name": "AniSaga",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AniSaga-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AniSaga-03.png"
     },
     {
       "name": "AniSaga",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AniSaga-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AniSaga-04.png"
     },
     {
       "name": "Anisaga_1",
@@ -779,11 +779,11 @@
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-02.png"
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-03.png"
     },
     {
       "name": "AskUniversal",
@@ -791,11 +791,11 @@
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-06.png"
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-06.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-05.png"
     },
     {
       "name": "AskUniversal",
@@ -803,11 +803,11 @@
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-08.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-09.png"
     },
     {
       "name": "AskUniversal",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-09.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/AskUniversal-08.png"
     },
     {
       "name": "AskUniversal",
@@ -1127,19 +1127,19 @@
     },
     {
       "name": "BuChiXiangCai BCXC",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-01.png"
-    },
-    {
-      "name": "BuChiXiangCai BCXC",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-02.png"
     },
     {
       "name": "BuChiXiangCai BCXC",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-01.png"
     },
     {
       "name": "BuChiXiangCai BCXC",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-04.png"
+    },
+    {
+      "name": "BuChiXiangCai BCXC",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/BCXC-03.png"
     },
     {
       "name": "Caribbeancom",
@@ -1159,11 +1159,11 @@
     },
     {
       "name": "CC",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CcEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CcEmby-02.png"
     },
     {
       "name": "CC",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CcEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CcEmby-01.png"
     },
     {
       "name": "CC_1",
@@ -1207,11 +1207,11 @@
     },
     {
       "name": "Cherry YingTao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Cherry-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Cherry-03.png"
     },
     {
       "name": "Cherry YingTao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Cherry-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Cherry-02.png"
     },
     {
       "name": "ChilledMelon XiGua DaiGua",
@@ -1323,11 +1323,11 @@
     },
     {
       "name": "Cookie",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CookieEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CookieEmby-02.png"
     },
     {
       "name": "Cookie",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CookieEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/CookieEmby-03.png"
     },
     {
       "name": "Cookie_1",
@@ -1339,7 +1339,19 @@
     },
     {
       "name": "Coolgua",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Coolgua.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Coolgua-01.png"
+    },
+    {
+      "name": "Coolgua",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Coolgua-03.png"
+    },
+    {
+      "name": "Coolgua",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Coolgua-04.png"
+    },
+    {
+      "name": "Coolgua",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Coolgua-02.png"
     },
     {
       "name": "Crab",
@@ -1371,19 +1383,19 @@
     },
     {
       "name": "dada",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-01.png"
-    },
-    {
-      "name": "dada",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-02.png"
     },
     {
       "name": "dada",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-01.png"
     },
     {
       "name": "dada",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-04.png"
+    },
+    {
+      "name": "dada",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/dadaEmby-03.png"
     },
     {
       "name": "DaJia",
@@ -1819,11 +1831,11 @@
     },
     {
       "name": "Drama",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Drama-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Drama-03.png"
     },
     {
       "name": "Drama",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Drama-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Drama-02.png"
     },
     {
       "name": "DreamWorks-Animation",
@@ -1867,11 +1879,11 @@
     },
     {
       "name": "EBS",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EBSEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EBSEmby-02.png"
     },
     {
       "name": "EBS",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EBSEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EBSEmby-01.png"
     },
     {
       "name": "Echofilx",
@@ -1895,11 +1907,11 @@
     },
     {
       "name": "EchoFlix",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-02.png"
     },
     {
       "name": "EchoFlix",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-01.png"
     },
     {
       "name": "EchoFlix",
@@ -1907,11 +1919,11 @@
     },
     {
       "name": "EchoFlix",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-05.png"
     },
     {
       "name": "EchoFlix",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EchoFlix-04.png"
     },
     {
       "name": "EchoFlix_1",
@@ -1967,15 +1979,15 @@
     },
     {
       "name": "Emby",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/DIYEmby-02.png"
-    },
-    {
-      "name": "Emby",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/DIYEmby-01.png"
     },
     {
+      "name": "Emby",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/DIYEmby-02.png"
+    },
+    {
       "name": "EmbyClub MaoXiong",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyClub-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyClub-03.png"
     },
     {
       "name": "EmbyClub MaoXiong",
@@ -1983,7 +1995,7 @@
     },
     {
       "name": "EmbyClub MaoXiong",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyClub-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyClub-01.png"
     },
     {
       "name": "Embydada",
@@ -1991,11 +2003,11 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-01.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-02.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -2003,11 +2015,11 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-06.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-06.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/EmbyPlus-05.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -2027,11 +2039,11 @@
     },
     {
       "name": "emos",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/emos-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/emos-02.png"
     },
     {
       "name": "emos",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/emos-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/emos-01.png"
     },
     {
       "name": "empn",
@@ -2067,11 +2079,11 @@
     },
     {
       "name": "ETFLIX",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ETFLIX-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ETFLIX-01.png"
     },
     {
       "name": "ETFLIX",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ETFLIX-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ETFLIX-02.png"
     },
     {
       "name": "ETFLIX",
@@ -2123,11 +2135,11 @@
     },
     {
       "name": "FeiNiu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiniuEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiniuEmby-01.png"
     },
     {
       "name": "FeiNiu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiniuEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiniuEmby-02.png"
     },
     {
       "name": "Feiniu_1",
@@ -2171,11 +2183,11 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-02.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-01.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
@@ -2183,11 +2195,11 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-05.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FeiYueCaiHong-04.png"
     },
     {
       "name": "Feiyuecaihong_new",
@@ -2327,11 +2339,11 @@
     },
     {
       "name": "FWorks",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FWorksEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FWorksEmby-02.png"
     },
     {
       "name": "FWorks",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FWorksEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/FWorksEmby-03.png"
     },
     {
       "name": "Fworks_emby",
@@ -2519,11 +2531,11 @@
     },
     {
       "name": "Hello NiHao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-03.png"
     },
     {
       "name": "Hello NiHao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-02.png"
     },
     {
       "name": "Hello NiHao",
@@ -2531,11 +2543,11 @@
     },
     {
       "name": "Hello NiHao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-06.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-05.png"
     },
     {
       "name": "Hello NiHao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HelloEmby-06.png"
     },
     {
       "name": "HelloBlock",
@@ -2591,7 +2603,7 @@
     },
     {
       "name": "HKA",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HKAEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HKAEmby-01.png"
     },
     {
       "name": "HKA",
@@ -2599,7 +2611,7 @@
     },
     {
       "name": "HKA",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HKAEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HKAEmby-03.png"
     },
     {
       "name": "HKA_1",
@@ -2623,11 +2635,11 @@
     },
     {
       "name": "Hohai",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HohaiEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HohaiEmby-01.png"
     },
     {
       "name": "Hohai",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HohaiEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/HohaiEmby-02.png"
     },
     {
       "name": "HoHai_Lite",
@@ -2672,6 +2684,10 @@
     {
       "name": "Hulu",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Hulu.png"
+    },
+    {
+      "name": "hx-emby",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/hx-emby.png"
     },
     {
       "name": "HXD",
@@ -2751,11 +2767,11 @@
     },
     {
       "name": "Iris YuanWei",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Iris-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Iris-02.png"
     },
     {
       "name": "Iris YuanWei",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Iris-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Iris-03.png"
     },
     {
       "name": "Iris YuanWei",
@@ -2799,11 +2815,11 @@
     },
     {
       "name": "Jellyfish+ ShuiMu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Jellyfish+-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Jellyfish+-01.png"
     },
     {
       "name": "Jellyfish+ ShuiMu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Jellyfish+-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Jellyfish+-02.png"
     },
     {
       "name": "Jellyfish+ ShuiMu",
@@ -2839,15 +2855,15 @@
     },
     {
       "name": "JingZhe",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/JingzheEmby-02.png"
+    },
+    {
+      "name": "JingZhe",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/JingzheEmby-01.png"
     },
     {
       "name": "JingZhe",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/JingzheEmby-03.png"
-    },
-    {
-      "name": "JingZhe",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/JingzheEmby-02.png"
     },
     {
       "name": "JingZhe",
@@ -2911,10 +2927,6 @@
     },
     {
       "name": "KFCV50",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KFCV50Emby-03.png"
-    },
-    {
-      "name": "KFCV50",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KFCV50Emby-01.png"
     },
     {
@@ -2922,12 +2934,12 @@
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KFCV50Emby-02.png"
     },
     {
-      "name": "Kiku",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kiku.PNG"
+      "name": "KFCV50",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KFCV50Emby-03.png"
     },
     {
       "name": "Kiku",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KikuEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kiku.PNG"
     },
     {
       "name": "Kiku",
@@ -2936,6 +2948,10 @@
     {
       "name": "Kiku",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KikuEmby-02.png"
+    },
+    {
+      "name": "Kiku",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KikuEmby-03.png"
     },
     {
       "name": "Kiku",
@@ -2971,15 +2987,15 @@
     },
     {
       "name": "KL",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KLEmby-04.png"
-    },
-    {
-      "name": "KL",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KLEmby-03.png"
     },
     {
       "name": "KL",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KLEmby-05.png"
+    },
+    {
+      "name": "KL",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/KLEmby-04.png"
     },
     {
       "name": "KLemby",
@@ -2999,11 +3015,11 @@
     },
     {
       "name": "KuaiLeDaYa",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kuailedaya-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kuailedaya-03.png"
     },
     {
       "name": "KuaiLeDaYa",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kuailedaya-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Kuailedaya-04.png"
     },
     {
       "name": "L",
@@ -3127,11 +3143,11 @@
     },
     {
       "name": "Lily",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LilyEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LilyEmby-01.png"
     },
     {
       "name": "Lily",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LilyEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LilyEmby-02.png"
     },
     {
       "name": "Lily",
@@ -3147,11 +3163,15 @@
     },
     {
       "name": "Liminal LinJing",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-01.png"
+    },
+    {
+      "name": "Liminal LinJing",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-02.png"
     },
     {
       "name": "Liminal LinJing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-04.png"
     },
     {
       "name": "Liminal LinJing",
@@ -3164,10 +3184,6 @@
     {
       "name": "Liminal LinJing",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-06.png"
-    },
-    {
-      "name": "Liminal LinJing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Liminal-04.png"
     },
     {
       "name": "Liminal_1",
@@ -3195,11 +3211,11 @@
     },
     {
       "name": "LiminalPro LinJing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LiminalPro-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LiminalPro-02.png"
     },
     {
       "name": "LiminalPro LinJing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LiminalPro-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LiminalPro-01.png"
     },
     {
       "name": "Linetv",
@@ -3271,15 +3287,11 @@
     },
     {
       "name": "Loser 1111",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-01.png"
-    },
-    {
-      "name": "Loser 1111",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-04.png"
-    },
-    {
-      "name": "Loser 1111",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-02.png"
+    },
+    {
+      "name": "Loser 1111",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-01.png"
     },
     {
       "name": "Loser 1111",
@@ -3288,6 +3300,10 @@
     {
       "name": "Loser 1111",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-05.png"
+    },
+    {
+      "name": "Loser 1111",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Loser.1111-04.png"
     },
     {
       "name": "Luobo",
@@ -3307,11 +3323,11 @@
     },
     {
       "name": "LustfulBoy",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LustfulBoy-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LustfulBoy-01.png"
     },
     {
       "name": "LustfulBoy",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LustfulBoy-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/LustfulBoy-02.png"
     },
     {
       "name": "Luxrealm",
@@ -3343,11 +3359,11 @@
     },
     {
       "name": "Lyrebird",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Lyrebird-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Lyrebird-04.png"
     },
     {
       "name": "Lyrebird",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Lyrebird-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Lyrebird-03.png"
     },
     {
       "name": "Lyrebird",
@@ -3459,11 +3475,11 @@
     },
     {
       "name": "ME",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MEEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MEEmby-02.png"
     },
     {
       "name": "ME",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MEEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MEEmby-01.png"
     },
     {
       "name": "ME",
@@ -3539,7 +3555,7 @@
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Meowfly-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Meowfly-05.png"
     },
     {
       "name": "Meowfly FeiLeGeMiao",
@@ -3547,7 +3563,7 @@
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Meowfly-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Meowfly-03.png"
     },
     {
       "name": "Meowfly_1",
@@ -3691,10 +3707,6 @@
     },
     {
       "name": "Mooncake YueBing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-03.png"
-    },
-    {
-      "name": "Mooncake YueBing",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-01.png"
     },
     {
@@ -3703,11 +3715,15 @@
     },
     {
       "name": "Mooncake YueBing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-03.png"
     },
     {
       "name": "Mooncake YueBing",
       "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-04.png"
+    },
+    {
+      "name": "Mooncake YueBing",
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/Mooncake-05.png"
     },
     {
       "name": "MoonWind",
@@ -3743,11 +3759,11 @@
     },
     {
       "name": "Msky",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MskyEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MskyEmby-01.png"
     },
     {
       "name": "Msky",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MskyEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MskyEmby-02.png"
     },
     {
       "name": "Msky_1",
@@ -3767,11 +3783,11 @@
     },
     {
       "name": "MWP FengYueGe",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MWPEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MWPEmby-01.png"
     },
     {
       "name": "MWP FengYueGe",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MWPEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/MWPEmby-02.png"
     },
     {
       "name": "Nanflix",
@@ -3867,11 +3883,11 @@
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NebulaMedia-06.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NebulaMedia-05.png"
     },
     {
       "name": "NebulaMedia XingYun",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NebulaMedia-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NebulaMedia-06.png"
     },
     {
       "name": "NebulaMedia XingYun",
@@ -3931,7 +3947,7 @@
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NijigenEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NijigenEmby-03.png"
     },
     {
       "name": "Nijigen ErCiYuan",
@@ -3939,7 +3955,7 @@
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NijigenEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NijigenEmby-02.png"
     },
     {
       "name": "NiuBi",
@@ -3951,11 +3967,11 @@
     },
     {
       "name": "NiuBi",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NiuBi-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NiuBi-01.png"
     },
     {
       "name": "NiuBi",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NiuBi-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/NiuBi-03.png"
     },
     {
       "name": "NiuBi",
@@ -4439,11 +4455,11 @@
     },
     {
       "name": "PlayZ",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/PlayzEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/PlayzEmby-02.png"
     },
     {
       "name": "PlayZ",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/PlayzEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/PlayzEmby-01.png"
     },
     {
       "name": "PlayZ_1",
@@ -4627,11 +4643,11 @@
     },
     {
       "name": "QingMeiYingHua",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingMeiYingHua-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingMeiYingHua-02.png"
     },
     {
       "name": "QingMeiYingHua",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingMeiYingHua-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingMeiYingHua-01.png"
     },
     {
       "name": "QingMeiYingHua",
@@ -4643,11 +4659,11 @@
     },
     {
       "name": "QingNingYingHua",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingNingYingHua-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingNingYingHua-01.png"
     },
     {
       "name": "QingNingYingHua",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingNingYingHua-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/QingNingYingHua-02.png"
     },
     {
       "name": "QingNingYingHua",
@@ -4995,11 +5011,11 @@
     },
     {
       "name": "ShaYu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ShayuEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ShayuEmby-02.png"
     },
     {
       "name": "ShaYu",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ShayuEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ShayuEmby-03.png"
     },
     {
       "name": "ShaYu",
@@ -5151,11 +5167,11 @@
     },
     {
       "name": "SNTPMediaLite",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/SNTPMediaLite-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/SNTPMediaLite-02.png"
     },
     {
       "name": "SNTPMediaLite",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/SNTPMediaLite-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/SNTPMediaLite-03.png"
     },
     {
       "name": "SNTPMediaLite",
@@ -5883,11 +5899,11 @@
     },
     {
       "name": "XYing XingYing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/XYingEmby-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/XYingEmby-02.png"
     },
     {
       "name": "XYing XingYing",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/XYingEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/XYingEmby-01.png"
     },
     {
       "name": "XYing XingYing",
@@ -6015,11 +6031,11 @@
     },
     {
       "name": "Youno",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YounoEmby-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YounoEmby-03.png"
     },
     {
       "name": "Youno",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YounoEmby-03.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YounoEmby-02.png"
     },
     {
       "name": "YounoPlus",
@@ -6115,11 +6131,11 @@
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YueZhiXuan-04.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YueZhiXuan-05.png"
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YueZhiXuan-05.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/YueZhiXuan-04.png"
     },
     {
       "name": "Yuezhixuan_1",
@@ -6231,11 +6247,11 @@
     },
     {
       "name": "ZhouSanWan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ZhouSanWan-02.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ZhouSanWan-01.png"
     },
     {
       "name": "ZhouSanWan",
-      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ZhouSanWan-01.png"
+      "url": "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/ZhouSanWan-02.png"
     },
     {
       "name": "ZhouSanWan",
