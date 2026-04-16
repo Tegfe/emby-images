@@ -1,0 +1,93 @@
+{
+  "id": "MyEmby",
+  "name": "测试 MyEmby",
+  "author": "Tegfe",
+  "version": "1.0",
+  "description": "测试 MyEmby 聚合图标包 更新时间：2026-04-16 21:10",
+  "icons": [
+    {
+      "name": "0_gikerwan",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/0_gikerwan.png"
+    },
+    {
+      "name": "1",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/1.PNG"
+    },
+    {
+      "name": "1",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/1.png"
+    },
+    {
+      "name": "2",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/2.PNG"
+    },
+    {
+      "name": "2",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/2.png"
+    },
+    {
+      "name": "3",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/3.PNG"
+    },
+    {
+      "name": "3",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/3.png"
+    },
+    {
+      "name": "4",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/4.PNG"
+    },
+    {
+      "name": "4",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/4.png"
+    },
+    {
+      "name": "4kziyuan",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/4kziyuan.png"
+    },
+    {
+      "name": "5",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/5.PNG"
+    },
+    {
+      "name": "5",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/5.png"
+    },
+    {
+      "name": "6",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/6.PNG"
+    },
+    {
+      "name": "6",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/6.png"
+    },
+    {
+      "name": "7",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/7.PNG"
+    },
+    {
+      "name": "7",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/7.png"
+    },
+    {
+      "name": "8",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/8.PNG"
+    },
+    {
+      "name": "8",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/8.png"
+    },
+    {
+      "name": "9",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/9.PNG"
+    },
+    {
+      "name": "9Club",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/9Club.PNG"
+    },
+    {
+      "name": "ZoxFree",
+      "url": "https://pro.myem.ccwu.cc/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZoxFree.png"
+    }
+  ]
+}
