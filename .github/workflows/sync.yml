@@ -39,15 +39,17 @@ jobs:
           # ===================== 配置 =====================
           GITHUB_TOKEN = "${{ secrets.GITHUB_TOKEN }}"
           REPO = "Tegfe/emby-images"
-          # 这里改成 jsdelivr 基础链接
-          CDN_URL = "https://cdn.jsdelivr.net/gh/Tegfe/emby-images@main/images/"
+
+          # 已修改为你需要的格式
+          RAW_BASE = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
+          FINAL_URL_PREFIX = "https://pro.myem.ccwu.cc/"
 
           headers = {
               "Authorization": f"Bearer {GITHUB_TOKEN}",
               "Accept": "application/vnd.github.v3+json"
           }
 
-          MAX_WORKERS = 3  # 并发数（建议 5~8）
+          MAX_WORKERS = 3
 
           # ===================== 时间 =====================
           beijing_time = (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M")
@@ -92,7 +94,7 @@ jobs:
                   if not name or not img_url:
                       return None
 
-                  # ===== 文件名处理（线程安全）=====
+                  # ===== 文件名处理 =====
                   fn = img_url.split("/")[-1].split("?")[0]
                   name_only, ext = os.path.splitext(fn)
 
@@ -108,33 +110,31 @@ jobs:
                   r = requests.get(img_url, timeout=15)
                   r.raise_for_status()
 
-                  # ===== 本地 hash =====
+                  # ===== hash 校验 =====
                   new_sha = hashlib.sha1(r.content).hexdigest()
-
-                  # ===== 远程 hash =====
                   remote_sha = repo_files.get(new_fn)
-
                   upload_url = f"https://api.github.com/repos/{REPO}/contents/images/{new_fn}"
 
-                  # ===== 增量判断 =====
-                  if remote_sha == new_sha:
-                      print(f"⏭️ 跳过: {new_fn}")
-                  else:
+                  # ===== 增量上传 =====
+                  if remote_sha != new_sha:
                       payload = {
                           "message": f"Sync {new_fn}",
                           "content": base64.b64encode(r.content).decode()
                       }
-
                       if remote_sha:
-                          payload["sha"] = remote_sha  # 覆盖更新
-
+                          payload["sha"] = remote_sha
                       requests.put(upload_url, json=payload, headers=headers)
                       print(f"✅ 更新: {new_fn}")
+                  else:
+                      print(f"⏭️ 跳过: {new_fn}")
+
+                  # ===================== 关键：生成你要的 URL 格式 =====================
+                  raw_url = RAW_BASE + new_fn
+                  final_url = FINAL_URL_PREFIX + raw_url
 
                   return {
                       "name": name,
-                      # 这里使用 CDN 链接
-                      "url": CDN_URL + new_fn
+                      "url": final_url
                   }
 
               except Exception as e:
