@@ -42,7 +42,7 @@ jobs:
 
           # 已修改为你需要的格式
           RAW_BASE = "https://raw.githubusercontent.com/Tegfe/emby-images/main/images/"
-          FINAL_URL_PREFIX = "https://pro.myem.ccwu.cc/"
+          FINAL_URL_PREFIX = "https://pro.coke.dpdns.org/"
 
           headers = {
               "Authorization": f"Bearer {GITHUB_TOKEN}",
