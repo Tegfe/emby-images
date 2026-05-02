@@ -1,28 +1,75 @@
-# youno
+#域名类规则
+#DOMAIN 匹配整个域名
+#如：DOMAIN,google.com,proxy
+
+#DOMAIN-SUFFIX 匹配域名后缀，例如apple.com可以匹配icloud.apple.com，www.apple.com，但是不能够匹配app-apple.com
+#如：DOMAIN-SUFFIX,apple.com,proxy
+
+#DOMAIN-KEYWORD 域名关键词匹配
+#如：DOMAIN-KEYWORD,apple,proxy
+
+#此库为强制直连❗️
+
+#🌱西瓜
+DOMAIN-SUFFIX,www.yuntv.de
+DOMAIN-SUFFIX,xg.yuntv.de
+DOMAIN-SUFFIX,xigua.yuntv.de
+
+#🌱小姨子
+DOMAIN,gy1.66990000.xyz
+DOMAIN-SUFFIX,emby.yun
+
+#🌱月之轩 直连域名
+DOMAIN-SUFFIX,emby.4348663.xyz
+
+#🌱we emby 
+DOMAIN-SUFFIX,wedg.top
+
+#🌱麦当劳
+DOMAIN-SUFFIX,saodu6.cn
+DOMAIN-SUFFIX,saodu6.top
+DOMAIN,5165163.xyz
+
+#🌱稳健有声书
+DOMAIN,audio.hsu.life
+
+#🌱无拘
+DOMAIN,faemby.vip
+
+#🌱404
+DOMAIN,ns1e.notfounda.shop
+
+#🌱乐蛙
+DOMAIN,emby.taotu.ink
+
+# 🌱youno
 DOMAIN-SUFFIX,younoyes.com
 DOMAIN-SUFFIX,567741.xyz
 DOMAIN-SUFFIX,65194798.xyz
 
-# paolu
+# 🌱paolu
 DOMAIN-SUFFIX,paoluma.de
 
-# 月饼 
+# 🌱月饼 
 DOMAIN-SUFFIX,emby.my
 DOMAIN-SUFFIX,apple-cdn.net
 
-# xyz
-DOMAIN-SUFFIX,emby.yun
-
-# mdl
-DOMAIN-SUFFIX,saodu6.cn
-DOMAIN-SUFFIX,saodu6.top
-
-# we
-DOMAIN-SUFFIX,wedg.top
-
-# hohai
+# 🌱hohai
 DOMAIN,emby-cm.hohai.eu.org
 
-# 云慕 
+# 🌱云慕 
 DOMAIN-SUFFIX,nubebelle.com
 DOMAIN-SUFFIX,xiercloud.uk
+
+#🌱通用反代
+
+#玛卡
+DOMAIN-SUFFIX,maka.daierbaby.qzz.io
+#luo佬
+DOMAIN-SUFFIX,auto.dolby.dpdns.org
+#aoao佬
+DOMAIN-SUFFIX,auto.liuer.indevs.in
+#空白佬
+DOMAIN-SUFFIX,auto.embys.dpdns.org
+#Dirige佬
+DOMAIN-SUFFIX,fd.dirige.de5.net
