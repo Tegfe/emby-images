@@ -21,6 +21,11 @@ DOMAIN-SUFFIX,sfcj.org
 # OkEmby
 DOMAIN-SUFFIX,okemby.org
 
+# 垃圾影音(1111,Loser)
+DOMAIN,cf.xmsl.org
+DOMAIN,emby.ml
+DOMAIN,loseremby.org
+
 # 叶子
 DOMAIN-KEYWORD,lyezi
 DOMAIN,yz.200036.xyz
