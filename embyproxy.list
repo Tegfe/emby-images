@@ -1,20 +1,3 @@
-# 海外限制源（禁大陆 / 日 / 美）
-# 起点站（禁大陆及日本）
-DOMAIN-SUFFIX,free.28.al
-DOMAIN-SUFFIX,startspoint.com
-
-# prprCloud（禁大陆、日本及美国）
-DOMAIN,neo.iflya321.com
-
-# Nebula-Media（禁大陆及日本）
-DOMAIN-SUFFIX,nebula-media.org
-
-# Levilde Luminia 2.0（禁大陆及日本）
-DOMAIN,emby.levilde.bond
-
-# SNTP Media Lite（禁大陆）
-DOMAIN,lite.cn2gias.uk
-
 # 海外源
 # Mirai
 DOMAIN-SUFFIX,miraiemby.com
@@ -29,19 +12,19 @@ DOMAIN,114514.fuckme.pushgoodcloud.com
 # Msky影库
 DOMAIN-SUFFIX,3msky.com
 
-# emos
-DOMAIN-SUFFIX,emos.best
-DOMAIN-SUFFIX,sharepoint.com
+# 不吃香菜
+DOMAIN-SUFFIX,iemby.cn
 
 # 非越
+DOMAIN-SUFFIX,emby.pro
 DOMAIN-SUFFIX,sfcj.org
-
 # OkEmby
 DOMAIN-SUFFIX,okemby.org
 
 # 叶子
 DOMAIN-KEYWORD,lyezi
 DOMAIN,yz.200036.xyz
+DOMAIN-SUFFIX,lyezi.cc
 
 # Doubon
 DOMAIN,onatoshi.114514.quest
@@ -88,18 +71,11 @@ DOMAIN,gousen.cc.cd
 # lily
 DOMAIN-KEYWORD,lily
 
-# 墨云阁
-DOMAIN-SUFFIX,mobaiemby.site
-
 # paolu-main
 DOMAIN,cctv.paoluma.de
 
 # kiku
 DOMAIN-SUFFIX,ucloudhost.top
-
-# 非越
-DOMAIN-SUFFIX,emby.pro
-DOMAIN-SUFFIX,sfcj.org
 
 # peach
 DOMAIN-SUFFIX,embymv.link
@@ -110,7 +86,7 @@ DOMAIN-SUFFIX,saturdayent.top
 # 飞了个喵
 DOMAIN-SUFFIX,meowfly.de
 
-# echo
+# echoflix
 DOMAIN-SUFFIX,echoflix.de
 
 # emos
@@ -130,54 +106,38 @@ DOMAIN-SUFFIX,886223.xyz
 # 西瓜
 DOMAIN-SUFFIX,chilledmelon.com
 
-# 小鸡
+# 悲伤小鸡
 DOMAIN-SUFFIX,sadchicktv.com
-
-# 守候
-DOMAIN,lite.cn2gias.uk
 
 # 折纸
 DOMAIN-SUFFIX,zhezhi.art
 
-# roc
+# ROC
 DOMAIN-SUFFIX,rochub.xyz
-
-# mirai
-DOMAIN-SUFFIX,miraiemby.com
-
-# msky
-DOMAIN-SUFFIX,3msky.com
 
 # 泥嚎
 DOMAIN-SUFFIX,23333334.xyz
 
-# jsq
+# 见手青
 DOMAIN-SUFFIX,vban.xyz
 
 # 西瓜
 DOMAIN-SUFFIX,yuntv.de
 
-# 起点站
-DOMAIN,free.28.al
-DOMAIN,freestream.startspoint.com
-
 # 小虾米
 DOMAIN-SUFFIX,kingemby.xyz
 
-# 一只
+# 一只濑琴美
 DOMAIN-SUFFIX,ichinosekotomi.com
 
 # 肥牛
 DOMAIN-SUFFIX,feiniu.lol
 
-# kl
+# KL
 DOMAIN,tyemby.klplay.top
 
 # cinetrail
 DOMAIN-SUFFIX,cinetrail.live
-
-# gousen
-DOMAIN,gousen.cc.cd
 
 # nice
 DOMAIN-SUFFIX,nice66666.cc
@@ -188,24 +148,11 @@ DOMAIN,emby.wenjian.de
 # 结束
 DOMAIN,kessoku-bando.biliblili.uk
 
-# ask
-DOMAIN-SUFFIX,asubaka.de
-DOMAIN-SUFFIX,ash.yt
-
-# hohai
-DOMAIN,emby-pro.hohai.eu.org
-
 # guai
 DOMAIN,zhuixin.8622368.xyz
 
-# 叶子
-DOMAIN-SUFFIX,lyezi.cc
-
 # shrek
 DOMAIN-SUFFIX,shrekmedia.org
-
-# ok
-DOMAIN-SUFFIX,okemby.org
 
 # eoos
 DOMAIN-SUFFIX,eoos.lol
@@ -215,6 +162,9 @@ DOMAIN-SUFFIX,mebimmer.de
 
 # iris
 DOMAIN-SUFFIX,niceduck.lol
+
+# Faemby
+DOMAIN-SUFFIX,tssuy.cn
 
 # TMDB 元数据
 DOMAIN-SUFFIX,tmdb.org
