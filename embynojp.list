@@ -1,7 +1,7 @@
 # 海外限制源（禁大陆 / 日 / 美）
 # 起点站（禁大陆及日本）
-DOMAIN-SUFFIX,free.28.al
-DOMAIN-SUFFIX,startspoint.com
+DOMAIN-SUFFIX,free.28.al,起点
+DOMAIN-SUFFIX,startspoint.com,起点
 
 # prprCloud（禁大陆、日本及美国）
 DOMAIN,neo.iflya321.com
@@ -13,4 +13,4 @@ DOMAIN-SUFFIX,nebula-media.org
 DOMAIN,emby.levilde.bond
 
 # SNTP Media Lite（禁大陆）
-DOMAIN,lite.cn2gias.uk
+DOMAIN,lite.cn2gias.uk,SNTP
