@@ -192,3 +192,6 @@ DOMAIN-SUFFIX,tssuy.cn
 # 🌱 TMDB元数据
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
+
+IP-CIDR,74.125.250.129/24,no-resolve
+IP-CIDR,142.251.215.0/24,no-resolve
