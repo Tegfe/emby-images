@@ -1,39 +1,37 @@
-name: 同步Cloudflare IP列表
+name: 同步多国 Cloudflare IP 列表
 
 on:
-  # 手动触发
-  workflow_dispatch:
-  # 定时触发（每天UTC 0点，可自行修改）
+  workflow_dispatch:  # 手动触发
   schedule:
-    - cron: '0 0 * * *'
-  # 源仓库更新时触发（可选）
-  push:
-    branches: [ main ]
+    - cron: '25 * * * *'  # 每天自动同步一次
 
 jobs:
-  sync-ip-file:
+  sync-files:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
-      - name: 检出目标仓库
+      - name: 检出仓库
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 下载源IP文件
+      # 下载所有需要的 IP 文件
+      - name: 下载源文件
         run: |
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Cfxyz.txt" -o source.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Cfxyz.txt" -o all.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/US.txt" -o US.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/SG.txt" -o SG.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/NL.txt" -o NL.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/DE.txt" -o DE.txt
+          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/JP.txt" -o JP.txt
 
-      - name: 覆盖写入all.txt
-        run: |
-          cat source.txt > all.txt
-
-      - name: 提交并推送更改
+      # 提交更新
+      - name: 提交并推送
         uses: EndBug/add-and-commit@v9
         with:
-          message: "自动同步最新Cloudflare IP列表"
+          message: "自动同步 all.txt US.txt SG.txt NL.txt DE.txt JP.txt"
           committer_name: GitHub Actions
           committer_email: actions@github.com
-          add: "all.txt"
+          add: "*.txt"
