@@ -1,12 +1,12 @@
-name: 同步多国 Cloudflare IP 列表
-
+name: 合并多地区IP到all.txt
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
+  # 每小时整点执行
   schedule:
-    - cron: '25 * * * *'  # 每天自动同步一次
+    - cron: '0 * * * *'
 
 jobs:
-  sync-files:
+  merge-ip:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,24 +14,33 @@ jobs:
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 下载所有需要的 IP 文件
-      - name: 下载源文件
+      - name: 下载并合并所有IP文件到all.txt
         run: |
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Cfxyz.txt" -o all.txt
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/US.txt" -o US.txt
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/SG.txt" -o SG.txt
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/NL.txt" -o NL.txt
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/DE.txt" -o DE.txt
-          curl -L "https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/JP.txt" -o JP.txt
+          # 先清空
+          > all.txt
+          # 逐个下载追加到 all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Cfxyz.txt >> all.txt
+          echo "" >> all.txt
 
-      # 提交更新
-      - name: 提交并推送
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/US.txt >> all.txt
+          echo "" >> all.txt
+
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/SG.txt >> all.txt
+          echo "" >> all.txt
+
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/NL.txt >> all.txt
+          echo "" >> all.txt
+
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/DE.txt >> all.txt
+          echo "" >> all.txt
+
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/JP.txt >> all.txt
+
+      - name: 提交推送
         uses: EndBug/add-and-commit@v9
         with:
-          message: "自动同步 all.txt US.txt SG.txt NL.txt DE.txt JP.txt"
+          message: "每小时自动合并 Cfxyz/US/SG/NL/DE/JP 到 all.txt"
           committer_name: GitHub Actions
           committer_email: actions@github.com
-          add: "*.txt"
+          add: all.txt
