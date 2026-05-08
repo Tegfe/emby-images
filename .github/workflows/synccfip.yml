@@ -1,8 +1,8 @@
-name: 合并所有IP到all.txt（每小时更新）
+name: 合并+格式转换+去重IP到all.txt（每小时更新）
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 * * * *'  # 每小时自动运行
+    - cron: '25 * * * *'
 
 jobs:
   merge-ip:
@@ -15,22 +15,90 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 下载并合并所有IP到 all.txt
-        run: |
-          rm -f all.txt
-          touch all.txt
+      - name: 安装依赖
+        run: sudo apt install -y awk sed
 
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/Cfxyz.txt >> all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/US.txt >> all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/SG.txt >> all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/NL.txt >> all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/DE.txt >> all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/JP.txt >> all.txt
+      - name: 下载合并所有IP文件
+        run: |
+          rm -f all.txt raw.txt
+          touch raw.txt
+
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/Cfxyz.txt >> raw.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/US.txt >> raw.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/SG.txt >> raw.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/NL.txt >> raw.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/DE.txt >> raw.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/JP.txt >> raw.txt
+
+          # 去重
+          awk '!seen[$0]++' raw.txt > raw_unique.txt
+
+      - name: 格式转换脚本
+        run: |
+          #!/bin/bash
+          input=raw_unique.txt
+          output=all.txt
+          rm -f $output
+
+          # 计数器
+          speed_cnt=1
+          us_cnt=1
+          sg_cnt=1
+          nl_cnt=1
+          de_cnt=1
+          jp_cnt=1
+
+          while IFS= read -r line; do
+            # 跳过空行
+            [[ -z "$line" ]] && continue
+
+            # 1. 测速行：含【测速 Nodes】
+            if echo "$line" | grep -q "【测速 Nodes】"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              speed=$(echo "$line" | cut -d】 -f2 | xargs)
+              echo "${ip}#测速${speed_cnt}-CF ${speed}" >> $output
+              speed_cnt=$((speed_cnt+1))
+
+            # 2. 美国 us
+            elif echo "$line" | grep -q "#us"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              echo "${ip}#美国${us_cnt}-CF" >> $output
+              us_cnt=$((us_cnt+1))
+
+            # 3. 新加坡 sg
+            elif echo "$line" | grep -q "#sg"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              echo "${ip}#新加坡${sg_cnt}-CF" >> $output
+              sg_cnt=$((sg_cnt+1))
+
+            # 4. 荷兰 nl
+            elif echo "$line" | grep -q "#nl"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              echo "${ip}#荷兰${nl_cnt}-CF" >> $output
+              nl_cnt=$((nl_cnt+1))
+
+            # 5. 德国 de
+            elif echo "$line" | grep -q "#de"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              echo "${ip}#德国${de_cnt}-CF" >> $output
+              de_cnt=$((de_cnt+1))
+
+            # 6. 日本 jp
+            elif echo "$line" | grep -q "#jp"; then
+              ip=$(echo "$line" | cut -d# -f1)
+              echo "${ip}#日本${jp_cnt}-CF" >> $output
+              jp_cnt=$((jp_cnt+1))
+
+            # 其他原样保留
+            else
+              echo "$line" >> $output
+            fi
+          done < "$input"
 
       - name: 提交更新
         uses: EndBug/add-and-commit@v9
         with:
-          message: "IP列表每小时自动更新"
+          message: "IP合并+自动格式转换 每小时更新"
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: all.txt
