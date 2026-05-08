@@ -1,46 +1,37 @@
-name: 合并多地区IP到all.txt
+name: 合并所有IP到all.txt（每小时更新）
 on:
   workflow_dispatch:
-  # 每小时整点执行
   schedule:
-    - cron: '0 * * * *'
+    - cron: '25 * * * *'  # 每小时自动运行
 
 jobs:
   merge-ip:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: 检出仓库
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: 下载并合并所有IP文件到all.txt
+      - name: 下载并合并所有IP到 all.txt
         run: |
-          # 先清空
-          > all.txt
-          # 逐个下载追加到 all.txt
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Cfxyz.txt >> all.txt
-          echo "" >> all.txt
+          rm -f all.txt
+          touch all.txt
 
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/US.txt >> all.txt
-          echo "" >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/Cfxyz.txt >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/US.txt >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/SG.txt >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/NL.txt >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/DE.txt >> all.txt
+          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/main/JP.txt >> all.txt
 
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/SG.txt >> all.txt
-          echo "" >> all.txt
-
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/NL.txt >> all.txt
-          echo "" >> all.txt
-
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/DE.txt >> all.txt
-          echo "" >> all.txt
-
-          curl -fsSL https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/JP.txt >> all.txt
-
-      - name: 提交推送
+      - name: 提交更新
         uses: EndBug/add-and-commit@v9
         with:
-          message: "每小时自动合并 Cfxyz/US/SG/NL/DE/JP 到 all.txt"
+          message: "IP列表每小时自动更新"
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: all.txt
+          push: true
