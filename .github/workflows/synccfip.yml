@@ -29,13 +29,14 @@ jobs:
 
           awk '!seen[$0]++' raw.txt > raw_unique.txt
 
-      - name: 批量转换IP格式
+      - name: 批量转换IP格式（测速改为日本Fast）
         run: |
           input=raw_unique.txt
           output=all.txt
           rm -f $output
 
-          speed_cnt=1
+          # 测速节点 → 日本Fast 自动编号
+          fast_cnt=1
           us_cnt=1
           sg_cnt=1
           nl_cnt=1
@@ -48,8 +49,9 @@ jobs:
             if echo "$line" | grep -q "【测速 Nodes】"; then
               ip=$(echo "$line" | cut -d# -f1)
               speed=$(echo "$line" | awk -F'】' '{print $2}' | xargs)
-              echo "${ip}#测速${speed_cnt}-CF ${speed}" >> $output
-              speed_cnt=$((speed_cnt+1))
+              # 重点修改：测速 → 日本Fast
+              echo "${ip}#日本Fast${fast_cnt}-CF ${speed}" >> $output
+              fast_cnt=$((fast_cnt+1))
             elif echo "$line" | grep -q "#us"; then
               ip=$(echo "$line" | cut -d# -f1)
               echo "${ip}#美国${us_cnt}-CF" >> $output
@@ -78,7 +80,7 @@ jobs:
       - name: 提交更新
         uses: EndBug/add-and-commit@v9
         with:
-          message: "IP合并+自动格式转换 每小时更新"
+          message: "IP合并+自动格式转换 测速节点改为日本Fast 每小时更新"
           committer_name: GitHub Actions
           committer_email: actions@github.com
           add: all.txt
