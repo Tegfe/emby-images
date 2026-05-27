@@ -2,7 +2,7 @@ name: 合并+格式转换+去重IP到all.txt（每小时更新）
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 */8 * * *'
+    - cron: '5 */8 * * *'
 
 jobs:
   merge-ip:
