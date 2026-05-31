@@ -19,16 +19,17 @@ DOMAIN-SUFFIX,xigua.yuntv.de
 DOMAIN,gy1.66990000.xyz
 DOMAIN-SUFFIX,emby.yun
 
-# 🌱 月之轩 直连域名
+# 🌱 月之轩
 DOMAIN-SUFFIX,emby.4348663.xyz
 
-# 🌱 we emby 
+# 🌱 We 
 DOMAIN-SUFFIX,wedg.top
 
 # 🌱 麦当劳
 DOMAIN-SUFFIX,saodu6.cn
 DOMAIN-SUFFIX,saodu6.top
 DOMAIN,5165163.xyz
+DOMAIN-KEYWORD,saodu
 
 # 🌱 稳健有声书
 DOMAIN,audio.hsu.life
@@ -42,7 +43,10 @@ DOMAIN,ns1e.notfounda.shop
 # 🌱 乐蛙
 DOMAIN,emby.taotu.ink
 
-#  🌱 youno
+# 🌱 屿森
+DOMAIN,yusen.cyou
+
+# 🌱 Youno
 DOMAIN-SUFFIX,younoyes.com
 DOMAIN-SUFFIX,567741.xyz
 DOMAIN-SUFFIX,65194798.xyz
@@ -53,16 +57,23 @@ DOMAIN-SUFFIX,paoluma.de
 # 🌱 月饼 
 DOMAIN-SUFFIX,emby.my
 DOMAIN-SUFFIX,apple-cdn.net
+DOMAIN,speedtest-peppapig.apple-cdn.net
 
-#  🌱 hohai
+# 🌱 hohai
 DOMAIN,emby-cm.hohai.eu.org
 
 # 🌱 云慕 
 DOMAIN-SUFFIX,nubebelle.com
 DOMAIN-SUFFIX,xiercloud.uk
 
-# 🌱 通用反代
+# 🌱 Mirai CDN线路
+DOMAIN,mi2.miraiemby.com
 
+# 🌱 悲伤小鸡 CDN线路
+DOMAIN,emby2.sadchicktv.com
+
+
+# 🌱 通用反代
 #玛卡
 DOMAIN-SUFFIX,maka.daierbaby.qzz.io
 #luo佬
@@ -73,3 +84,5 @@ DOMAIN-SUFFIX,auto.liuer.indevs.in
 DOMAIN-SUFFIX,auto.embys.dpdns.org
 #Dirige佬
 DOMAIN-SUFFIX,fd.dirige.de5.net
+#A大
+DOMAIN,ada.6yhy.top
