@@ -132,6 +132,9 @@ DOMAIN-SUFFIX,zhezhi.art
 # 🌱 ROC
 DOMAIN-SUFFIX,rochub.xyz
 
+# 🌱 飞了个喵
+DOMAIN-SUFFIX,meowfly.de
+
 # 🌱 泥嚎
 DOMAIN-SUFFIX,23333334.xyz
 
@@ -195,9 +198,31 @@ DOMAIN-SUFFIX,tssuy.cn
 # 🌱 NOX
 DOMAIN-SUFFIX,inemby.us.ci
 
+# 🌱 Lunaris Vault
+DOMAIN-SUFFIX,lunarisvault.com
+
+# 🌱 步兵营地
+DOMAIN,bb.111848.xyz
+
+# 🌱 这只猫
+DOMAIN,eb.zzm.li
+
 # 🌱 TMDB元数据
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
 
-IP-CIDR,74.125.250.129/24,no-resolve
-IP-CIDR,142.251.215.0/24,no-resolve
+# 🌱 其他
+DOMAIN,ebs.digimon.ink
+DOMAIN,ebs.bydsb.cc.cd
+DOMAIN,emby.nas.edu.kg
+DOMAIN,emby.ebsio.dpdns.org
+DOMAIN,ebs.cnmbyd.de5.net
+DOMAIN,ebs.fw1.de5.net
+DOMAIN,ebs.cnmbyd.xyz
+DOMAIN,emby.yvle.de
+DOMAIN,link01.okemby.org
+DOMAIN,emby.cf.rochub.xyz
+DOMAIN,mi.miraiemby.com
+DOMAIN,mi2.miraiemby.com
+DOMAIN,emby.yvle.de:443
+DOMAIN,cf.bili.rip
