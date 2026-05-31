@@ -16,9 +16,11 @@ DOMAIN-SUFFIX,xg.yuntv.de
 DOMAIN-SUFFIX,xigua.yuntv.de
 
 # 🌱 小姨子
-DOMAIN,gy1.66990000.xyz
-DOMAIN-SUFFIX,emby.yun
-DOMAIN-SUFFIX,fxtbjmqslr.cn
+DOMAIN,gy1.emby.yun
+DOMAIN,gy2.emby.yun
+DOMAIN,gy3.emby.yun
+DOMAIN,gy.fxtbjmqslr.cn
+DOMAIN,gy.emby.yun
 
 # 🌱 月之轩
 DOMAIN-SUFFIX,emby.4348663.xyz
