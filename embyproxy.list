@@ -1,4 +1,3 @@
-#域名类规则
 #DOMAIN 匹配整个域名
 #如：DOMAIN,google.com,proxy
 
@@ -10,206 +9,208 @@
 
 #此库为强制代理❗️
 
-# 🌱 Mirai
-DOMAIN-SUFFIX,miraiemby.com
+# 🌱 ASH
+DOMAIN-SUFFIX,ask.ash.yt
 
-# 🌱 SaturDay.Lite
-DOMAIN-SUFFIX,saturdayvideo.top
-
-# 🌱 气鼠了(CF常规、CF优化)
-DOMAIN,emby.istyboe.top
-DOMAIN,114514.fuckme.pushgoodcloud.com
-
-# 🌱 Msky影库
-DOMAIN-SUFFIX,3msky.com
-
-# 🌱 不吃香菜
-DOMAIN-SUFFIX,iemby.cn
-
-# 🌱 非越
-DOMAIN-SUFFIX,emby.pro
-DOMAIN-SUFFIX,sfcj.org
-
-# 🌱 OkEmby
-DOMAIN-SUFFIX,okemby.org
-
-# 🌱 垃圾影音(1111,Loser)
-DOMAIN,cf.xmsl.org
-DOMAIN,emby.ml
-DOMAIN,loseremby.org
-
-# 🌱 叶子
-DOMAIN-KEYWORD,lyezi
-DOMAIN,yz.200036.xyz
-DOMAIN-SUFFIX,lyezi.cc
+# 🌱 cinetrail
+DOMAIN-SUFFIX,cinetrail.live
 
 # 🌱 Doubon
 DOMAIN,onatoshi.114514.quest
 
-# 🌱 稳健服
-DOMAIN-SUFFIX,wenjian.de
-
-# 🌱 惊蛰
-DOMAIN-SUFFIX,jingzhe.pro
-
-# 🌱 墨云阁（主线、反代）
-DOMAIN-SUFFIX,mobaiemby.site
-DOMAIN-SUFFIX,280454.xyz
-
-# 🌱 月饼
-DOMAIN-SUFFIX,emby.my
-
-# 🌱 ASH
-DOMAIN-SUFFIX,ask.ash.yt
-
-# 🌱 飞跃彩虹
-DOMAIN-SUFFIX,feiyue.lol
-
-# 🌱 HKA Emby
-DOMAIN,hka-emby.aliz.work
-
-# 🌱 游骑兵
-DOMAIN-SUFFIX,heisi.org
-DOMAIN,emby666.alien666.de5.net
-
-# 🌱 HG-Emby（电信直连无速度）
-DOMAIN-SUFFIX,dnscf.dpdns.org
-DOMAIN-SUFFIX,microsoftpersonalcontent.com
-
-# 🌱 HelloHK
-DOMAIN-SUFFIX,hellohk.me
+# 🌱 echoflix
+DOMAIN-SUFFIX,echoflix.de
 
 # 🌱 Embydada
 DOMAIN-SUFFIX,101514.xyz
 
-# 🌱 狗剩
-DOMAIN,gousen.cc.cd
-
-# 🌱 lily
-DOMAIN-KEYWORD,lily
-
-# 🌱 paolu-main
-DOMAIN,cctv.paoluma.de
-
-# 🌱 kiku
-DOMAIN-SUFFIX,ucloudhost.top
-
-# 🌱 peach桃子
-DOMAIN-SUFFIX,embymv.link
-
-# 🌱 sdl
-DOMAIN-SUFFIX,saturdayent.top
-
-# 🌱 飞了个喵
-DOMAIN-SUFFIX,meowfly.de
-
-# 🌱 echoflix
-DOMAIN-SUFFIX,echoflix.de
+# 🌱 eoos
+DOMAIN-SUFFIX,eoos.lol
 
 # 🌱 emos
 DOMAIN,emos.best
 DOMAIN,emos.prlo.de
 DOMAIN,proxy.emosstore.sbs
 
-# 🌱 憨豆
-DOMAIN-SUFFIX,handoumedia.top
+# 🌱 Faemby
+DOMAIN-SUFFIX,tssuy.cn
 
-# 🌱 青梅
-DOMAIN-SUFFIX,chuncheon123.xyz
+# 🌱 HG-Emby（电信直连无速度）
+DOMAIN-SUFFIX,dnscf.dpdns.org
+DOMAIN-SUFFIX,microsoftpersonalcontent.com
 
-# 🌱 L
-DOMAIN-SUFFIX,886223.xyz
+# 🌱 HKA Emby
+DOMAIN,hka-emby.aliz.work
 
-# 🌱 冰镇西瓜
-DOMAIN-SUFFIX,chilledmelon.com
-
-# 🌱 悲伤小鸡
-DOMAIN-SUFFIX,sadchicktv.com
-
-# 🌱 折纸
-DOMAIN-SUFFIX,zhezhi.art
-
-# 🌱 ROC
-DOMAIN-SUFFIX,rochub.xyz
-
-# 🌱 飞了个喵
-DOMAIN-SUFFIX,meowfly.de
-
-# 🌱 泥嚎
-DOMAIN-SUFFIX,23333334.xyz
-
-# 🌱 见手青
-DOMAIN-SUFFIX,vban.xyz
-
-# 🌱 西瓜
-DOMAIN-SUFFIX,yuntv.de
-
-# 🌱 小虾米
-DOMAIN-SUFFIX,kingemby.xyz
-
-# 🌱 一只濑琴美
-DOMAIN-SUFFIX,ichinosekotomi.com
-
-# 🌱 肥牛
-DOMAIN-SUFFIX,feiniu.lol
-
-# 🌱 KL
-DOMAIN,tyemby.klplay.top
-
-# 🌱 cinetrail
-DOMAIN-SUFFIX,cinetrail.live
-
-# 🌱 nice
-DOMAIN-SUFFIX,nice66666.cc
-
-# 🌱 稳健
-DOMAIN,emby.wenjian.de
-
-# 🌱 结束
-DOMAIN,kessoku-bando.biliblili.uk
-
-# 🌱 guai
-DOMAIN,zhuixin.8622368.xyz
-
-# 🌱 星影
-DOMAIN-SUFFIX,xying1314.xyz
-
-# 🌱 影迹
-DOMAIN-SUFFIX,cinetrail.live
-
-# 🌱 LIBI
-DOMAIN-SUFFIX,libilibi.eu.org
-
-# 🌱 shrek
-DOMAIN-SUFFIX,shrekmedia.org
-
-# 🌱 eoos
-DOMAIN-SUFFIX,eoos.lol
-
-# 🌱 me
-DOMAIN-SUFFIX,mebimmer.de
+# 🌱 HelloHK
+DOMAIN-SUFFIX,hellohk.me
 
 # 🌱 iris
 DOMAIN-SUFFIX,niceduck.lol
 
-# 🌱 Faemby
-DOMAIN-SUFFIX,tssuy.cn
+# 🌱 KL
+DOMAIN,tyemby.klplay.top
 
-# 🌱 NOX
-DOMAIN-SUFFIX,inemby.us.ci
+# 🌱 kiku
+DOMAIN-SUFFIX,ucloudhost.top
+
+# 🌱 L
+DOMAIN-SUFFIX,886223.xyz
+
+# 🌱 LIBI
+DOMAIN-SUFFIX,libilibi.eu.org
+
+# 🌱 lily
+DOMAIN-KEYWORD,lily
 
 # 🌱 Lunaris Vault
 DOMAIN-SUFFIX,lunarisvault.com
 
-# 🌱 步兵营地
-DOMAIN,bb.111848.xyz
+# 🌱 Mirai
+DOMAIN-SUFFIX,miraiemby.com
 
-# 🌱 这只猫
-DOMAIN,eb.zzm.li
+# 🌱 me
+DOMAIN-SUFFIX,mebimmer.de
+
+# 🌱 Msky影库
+DOMAIN-SUFFIX,3msky.com
+
+# 🌱 nice
+DOMAIN-SUFFIX,nice66666.cc
+
+# 🌱 NOX
+DOMAIN-SUFFIX,inemby.us.ci
+
+# 🌱 OkEmby
+DOMAIN-SUFFIX,okemby.org
+
+# 🌱 paolu-main
+DOMAIN,cctv.paoluma.de
+
+# 🌱 peach桃子
+DOMAIN-SUFFIX,embymv.link
+
+# 🌱 ROC
+DOMAIN-SUFFIX,rochub.xyz
+
+# 🌱 SaturDay.Lite
+DOMAIN-SUFFIX,saturdayvideo.top
+
+# 🌱 sdl
+DOMAIN-SUFFIX,saturdayent.top
+
+# 🌱 shrek
+DOMAIN-SUFFIX,shrekmedia.org
 
 # 🌱 TMDB元数据
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,themoviedb.org
+
+# 🌱 不吃香菜
+DOMAIN-SUFFIX,iemby.cn
+
+# 🌱 冰镇西瓜
+DOMAIN-SUFFIX,chilledmelon.com
+
+# 🌱 步兵营地
+DOMAIN,bb.111848.xyz
+
+# 🌱 肥牛
+DOMAIN-SUFFIX,feiniu.lol
+
+# 🌱 飞了个喵
+DOMAIN-SUFFIX,meowfly.de
+DOMAIN-SUFFIX,meowfly.de
+
+# 🌱 飞跃彩虹
+DOMAIN-SUFFIX,feiyue.lol
+
+# 🌱 非越
+DOMAIN-SUFFIX,emby.pro
+DOMAIN-SUFFIX,sfcj.org
+
+# 🌱 狗剩
+DOMAIN,gousen.cc.cd
+
+# 🌱 guai
+DOMAIN,zhuixin.8622368.xyz
+
+# 🌱 憨豆
+DOMAIN-SUFFIX,handoumedia.top
+
+# 🌱 见手青
+DOMAIN-SUFFIX,vban.xyz
+
+# 🌱 惊蛰
+DOMAIN-SUFFIX,jingzhe.pro
+
+# 🌱 结束
+DOMAIN,kessoku-bando.biliblili.uk
+
+# 🌱 垃圾影音(1111,Loser)
+DOMAIN,cf.xmsl.org
+DOMAIN,emby.ml
+DOMAIN,loseremby.org
+
+# 🌱 泥嚎
+DOMAIN-SUFFIX,23333334.xyz
+
+# 🌱 墨云阁（主线、反代）
+DOMAIN-SUFFIX,mobaiemby.site
+DOMAIN-SUFFIX,280454.xyz
+
+# 🌱 青梅
+DOMAIN-SUFFIX,chuncheon123.xyz
+
+# 🌱 气鼠了(CF常规、CF优化)
+DOMAIN,emby.istyboe.top
+DOMAIN,114514.fuckme.pushgoodcloud.com
+
+# 🌱 We
+DOMAIN,us.wedg.top
+DOMAIN,xx.wedg.top
+
+# 🌱 西瓜
+DOMAIN-SUFFIX,yuntv.de
+
+# 🌱 稳健
+DOMAIN,emby.wenjian.de
+
+# 🌱 稳健服
+DOMAIN-SUFFIX,wenjian.de
+
+# 🌱 小虾米
+DOMAIN-SUFFIX,kingemby.xyz
+
+# 🌱 星影
+DOMAIN-SUFFIX,xying1314.xyz
+
+# 🌱 一只濑琴美
+DOMAIN-SUFFIX,ichinosekotomi.com
+
+# 🌱 影迹
+DOMAIN-SUFFIX,cinetrail.live
+
+# 🌱 月饼
+DOMAIN-SUFFIX,emby.my
+
+# 🌱 叶子
+DOMAIN-KEYWORD,lyezi
+DOMAIN,yz.200036.xyz
+DOMAIN-SUFFIX,lyezi.cc
+
+# 🌱 游骑兵
+DOMAIN-SUFFIX,heisi.org
+DOMAIN,emby666.alien666.de5.net
+
+# 🌱 折纸
+DOMAIN-SUFFIX,zhezhi.art
+
+# 🌱 这只猫
+DOMAIN,eb.zzm.li
+
+# 🌱 悲伤小鸡
+DOMAIN-SUFFIX,sadchicktv.com
 
 # 🌱 其他
 DOMAIN,ebs.digimon.ink
