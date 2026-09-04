@@ -3,7 +3,7 @@
   "name": "MyEmby",
   "author": "Tegfe",
   "version": "1.0",
-  "description": "MyEmby 聚合图标包 更新时间：2026-09-03 23:30",
+  "description": "MyEmby 聚合图标包 更新时间：2026-09-04 10:08",
   "icons": [
     {
       "name": "0_gikerwan",
@@ -475,11 +475,11 @@
     },
     {
       "name": "105° Ciallo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/105-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/105-02.png"
     },
     {
       "name": "105° Ciallo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/105-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/105-03.png"
     },
     {
       "name": "105°_1",
@@ -655,11 +655,11 @@
     },
     {
       "name": "AlphaTVOversea",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AlphaTVOversea-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AlphaTVOversea-03.png"
     },
     {
       "name": "AlphaTVOversea",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AlphaTVOversea-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AlphaTVOversea-02.png"
     },
     {
       "name": "Amc_plus",
@@ -695,11 +695,11 @@
     },
     {
       "name": "AniSaga",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-02.png"
     },
     {
       "name": "AniSaga",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AniSaga-03.png"
     },
     {
       "name": "AniSaga",
@@ -831,11 +831,11 @@
     },
     {
       "name": "AskAsh",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskAsh-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskAsh-01.png"
     },
     {
       "name": "AskAsh",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskAsh-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskAsh-02.png"
     },
     {
       "name": "AskAsh",
@@ -843,19 +843,19 @@
     },
     {
       "name": "AskBot",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-01.png"
-    },
-    {
-      "name": "AskBot",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-02.png"
     },
     {
       "name": "AskBot",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-01.png"
     },
     {
       "name": "AskBot",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-03.png"
+    },
+    {
+      "name": "AskBot",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AskBot-04.png"
     },
     {
       "name": "AskPremium",
@@ -895,10 +895,6 @@
     },
     {
       "name": "AuroraMedia",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-01.png"
-    },
-    {
-      "name": "AuroraMedia",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-02.png"
     },
     {
@@ -907,11 +903,15 @@
     },
     {
       "name": "AuroraMedia",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-01.png"
     },
     {
       "name": "AuroraMedia",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-05.png"
+    },
+    {
+      "name": "AuroraMedia",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AuroraMedia-04.png"
     },
     {
       "name": "Av_1pondo",
@@ -1027,19 +1027,19 @@
     },
     {
       "name": "AWATV",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AWATV-02.png"
-    },
-    {
-      "name": "AWATV",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AWATV-01.png"
     },
     {
-      "name": "Ayanami",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AyanamiEmby-02.png"
+      "name": "AWATV",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AWATV-02.png"
     },
     {
       "name": "Ayanami",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AyanamiEmby-01.png"
+    },
+    {
+      "name": "Ayanami",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/AyanamiEmby-02.png"
     },
     {
       "name": "Ayanami_emby",
@@ -1287,11 +1287,11 @@
     },
     {
       "name": "CharonTV KaRong",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CharonTV-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CharonTV-02.png"
     },
     {
       "name": "CharonTV KaRong",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CharonTV-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CharonTV-01.png"
     },
     {
       "name": "ChefsSecretMenu CaiDan",
@@ -1299,11 +1299,11 @@
     },
     {
       "name": "Cherry YingTao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Cherry-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Cherry-02.png"
     },
     {
       "name": "Cherry YingTao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Cherry-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Cherry-01.png"
     },
     {
       "name": "Cherry YingTao",
@@ -1315,15 +1315,15 @@
     },
     {
       "name": "ChilledMelon BingZhenXiGua DaiGua",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChilledMelon-03.png"
+    },
+    {
+      "name": "ChilledMelon BingZhenXiGua DaiGua",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChilledMelon-01.png"
     },
     {
       "name": "ChilledMelon BingZhenXiGua DaiGua",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChilledMelon-02.png"
-    },
-    {
-      "name": "ChilledMelon BingZhenXiGua DaiGua",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChilledMelon-03.png"
     },
     {
       "name": "ChilledMelon_1",
@@ -1351,15 +1351,15 @@
     },
     {
       "name": "Chong PornJerry Calorie",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChongPorn-02.png"
+    },
+    {
+      "name": "Chong PornJerry Calorie",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChongPorn-01.png"
     },
     {
       "name": "Chong PornJerry Calorie",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChongPorn-03.png"
-    },
-    {
-      "name": "Chong PornJerry Calorie",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ChongPorn-02.png"
     },
     {
       "name": "Chuiyan",
@@ -1447,11 +1447,11 @@
     },
     {
       "name": "Cookie",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CookieEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CookieEmby-01.png"
     },
     {
       "name": "Cookie",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CookieEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/CookieEmby-02.png"
     },
     {
       "name": "Cookie_1",
@@ -1463,15 +1463,15 @@
     },
     {
       "name": "Coolgua",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Coolgua-01.png"
-    },
-    {
-      "name": "Coolgua",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Coolgua-03.png"
     },
     {
       "name": "Coolgua",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Coolgua-02.png"
+    },
+    {
+      "name": "Coolgua",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Coolgua-01.png"
     },
     {
       "name": "Coolgua",
@@ -1651,15 +1651,15 @@
     },
     {
       "name": "DEC BCXC BuChiXiangCai",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-02.png"
-    },
-    {
-      "name": "DEC BCXC BuChiXiangCai",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-01.png"
     },
     {
       "name": "DEC BCXC BuChiXiangCai",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-02.png"
+    },
+    {
+      "name": "DEC BCXC BuChiXiangCai",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-03.png"
     },
     {
       "name": "DEC BCXC BuChiXiangCai",
@@ -1667,7 +1667,7 @@
     },
     {
       "name": "DEC BCXC BuChiXiangCai",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DECEmby-04.png"
     },
     {
       "name": "Des_emby",
@@ -1995,7 +1995,7 @@
     },
     {
       "name": "Drama",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Drama-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Drama-01.png"
     },
     {
       "name": "Drama",
@@ -2003,7 +2003,7 @@
     },
     {
       "name": "Drama",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Drama-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Drama-02.png"
     },
     {
       "name": "DreamWorks",
@@ -2011,11 +2011,11 @@
     },
     {
       "name": "DreamWorks MengGongChang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-01.png"
     },
     {
       "name": "DreamWorks MengGongChang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-02.png"
     },
     {
       "name": "DreamWorks MengGongChang",
@@ -2023,11 +2023,11 @@
     },
     {
       "name": "DreamWorks MengGongChang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-04.png"
     },
     {
       "name": "DreamWorks MengGongChang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DreamWorks-05.png"
     },
     {
       "name": "DreamWorks-Animation",
@@ -2071,11 +2071,11 @@
     },
     {
       "name": "EBS",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EBSEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EBSEmby-02.png"
     },
     {
       "name": "EBS",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EBSEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EBSEmby-01.png"
     },
     {
       "name": "Echofilx",
@@ -2103,19 +2103,19 @@
     },
     {
       "name": "EchoFlix HuiSheng",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-02.png"
-    },
-    {
-      "name": "EchoFlix HuiSheng",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-03.png"
     },
     {
       "name": "EchoFlix HuiSheng",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-02.png"
     },
     {
       "name": "EchoFlix HuiSheng",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-04.png"
+    },
+    {
+      "name": "EchoFlix HuiSheng",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EchoFlix-05.png"
     },
     {
       "name": "EchoFlix_1",
@@ -2175,11 +2175,11 @@
     },
     {
       "name": "Emby",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-01.png"
     },
     {
       "name": "Emby",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DIYEmby-02.png"
     },
     {
       "name": "EmbyClub MaoXiong",
@@ -2187,11 +2187,11 @@
     },
     {
       "name": "EmbyClub MaoXiong",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-03.png"
     },
     {
       "name": "EmbyClub MaoXiong",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyClub-02.png"
     },
     {
       "name": "Embydada",
@@ -2199,11 +2199,11 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-01.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-04.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -2211,7 +2211,7 @@
     },
     {
       "name": "EmbyPlus ZhiPianRen",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EmbyPlus-02.png"
     },
     {
       "name": "EmbyPlus ZhiPianRen",
@@ -2251,11 +2251,11 @@
     },
     {
       "name": "EOOS",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EOOS-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EOOS-02.png"
     },
     {
       "name": "EOOS",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EOOS-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/EOOS-01.png"
     },
     {
       "name": "EOOS",
@@ -2347,7 +2347,7 @@
     },
     {
       "name": "FeiNiu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-01.png"
     },
     {
       "name": "FeiNiu",
@@ -2355,7 +2355,7 @@
     },
     {
       "name": "FeiNiu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiniuEmby-03.png"
     },
     {
       "name": "Feiniu_1",
@@ -2403,7 +2403,7 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-03.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
@@ -2411,7 +2411,11 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-01.png"
+    },
+    {
+      "name": "FeiYueCaiHong Rainbow",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-05.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
@@ -2423,7 +2427,7 @@
     },
     {
       "name": "FeiYueCaiHong Rainbow",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-08.png"
     },
     {
       "name": "FeiYueCaiHong Rainbow",
@@ -2432,10 +2436,6 @@
     {
       "name": "FeiYueCaiHong Rainbow",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-09.png"
-    },
-    {
-      "name": "FeiYueCaiHong Rainbow",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FeiYueCaiHong-08.png"
     },
     {
       "name": "Feiyuecaihong_new",
@@ -2479,11 +2479,11 @@
     },
     {
       "name": "Fiti",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FitiPro.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FitiProCDN.png"
     },
     {
       "name": "Fiti",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FitiProCDN.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FitiPro.png"
     },
     {
       "name": "Fiti",
@@ -2595,11 +2595,11 @@
     },
     {
       "name": "FWorks",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-01.png"
     },
     {
       "name": "FWorks",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/FWorksEmby-02.png"
     },
     {
       "name": "FWorks",
@@ -2719,11 +2719,11 @@
     },
     {
       "name": "GIDD JiDao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-02.png"
     },
     {
       "name": "GIDD JiDao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GIDD-01.png"
     },
     {
       "name": "Gimy JuMi XinYingShiJie",
@@ -2735,11 +2735,11 @@
     },
     {
       "name": "GingaRessha YinHeLieChe",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GingaRessha-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GingaRessha-02.png"
     },
     {
       "name": "GingaRessha YinHeLieChe",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GingaRessha-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GingaRessha-01.png"
     },
     {
       "name": "Girlgirlove_dongman",
@@ -2783,11 +2783,11 @@
     },
     {
       "name": "GUAI",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuaiEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuaiEmby-02.png"
     },
     {
       "name": "GUAI",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuaiEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuaiEmby-03.png"
     },
     {
       "name": "GUAI",
@@ -2811,19 +2811,19 @@
     },
     {
       "name": "GuiXianWu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuiXianWu-02.png"
-    },
-    {
-      "name": "GuiXianWu",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuiXianWu-01.png"
     },
     {
-      "name": "HaiRiWan HaiRiBay",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HaiRiBay-01.png"
+      "name": "GuiXianWu",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/GuiXianWu-02.png"
     },
     {
       "name": "HaiRiWan HaiRiBay",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HaiRiBay-02.png"
+    },
+    {
+      "name": "HaiRiWan HaiRiBay",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HaiRiBay-01.png"
     },
     {
       "name": "Handou",
@@ -2839,11 +2839,11 @@
     },
     {
       "name": "HanDou",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-02.png"
     },
     {
       "name": "HanDou",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HandouEmby-03.png"
     },
     {
       "name": "Handou_1",
@@ -2903,19 +2903,15 @@
     },
     {
       "name": "Hello NiHao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-02.png"
-    },
-    {
-      "name": "Hello NiHao",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-01.png"
     },
     {
       "name": "Hello NiHao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-02.png"
     },
     {
       "name": "Hello NiHao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-03.png"
     },
     {
       "name": "Hello NiHao",
@@ -2926,8 +2922,16 @@
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-06.png"
     },
     {
+      "name": "Hello NiHao",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloEmby-04.png"
+    },
+    {
       "name": "HelloBlock",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock.PNG"
+    },
+    {
+      "name": "HelloBlock Ryan",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-01.png"
     },
     {
       "name": "HelloBlock Ryan",
@@ -2939,19 +2943,15 @@
     },
     {
       "name": "HelloBlock Ryan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-01.png"
-    },
-    {
-      "name": "HelloBlock Ryan",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-05.png"
     },
     {
       "name": "HelloBlock Ryan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-06.png"
     },
     {
       "name": "HelloBlock Ryan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-06.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HelloBlock-04.png"
     },
     {
       "name": "HelloBlock_Porn",
@@ -3043,11 +3043,11 @@
     },
     {
       "name": "Houyinx",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Houyinx-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Houyinx-01.png"
     },
     {
       "name": "Houyinx",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Houyinx-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Houyinx-02.png"
     },
     {
       "name": "Huachu",
@@ -3091,15 +3091,15 @@
     },
     {
       "name": "HXD",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HXDEmby-01.png"
-    },
-    {
-      "name": "HXD",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HXDEmby-02.png"
     },
     {
       "name": "HXD",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HXDEmby-03.png"
+    },
+    {
+      "name": "HXD",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/HXDEmby-01.png"
     },
     {
       "name": "Hxd1",
@@ -3171,11 +3171,11 @@
     },
     {
       "name": "Iris YuanWei",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Iris-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Iris-01.png"
     },
     {
       "name": "Iris YuanWei",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Iris-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Iris-02.png"
     },
     {
       "name": "Iris YuanWei",
@@ -3379,11 +3379,11 @@
     },
     {
       "name": "Kiku",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KikuEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KikuEmby-03.png"
     },
     {
       "name": "Kiku",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KikuEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KikuEmby-02.png"
     },
     {
       "name": "Kiku",
@@ -3439,11 +3439,11 @@
     },
     {
       "name": "KL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-03.png"
     },
     {
       "name": "KL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/KLEmby-04.png"
     },
     {
       "name": "KL",
@@ -3459,19 +3459,19 @@
     },
     {
       "name": "KuaiLeDaYa",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-02.png"
-    },
-    {
-      "name": "KuaiLeDaYa",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-01.png"
     },
     {
       "name": "KuaiLeDaYa",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-02.png"
     },
     {
       "name": "KuaiLeDaYa",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-03.png"
+    },
+    {
+      "name": "KuaiLeDaYa",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Kuailedaya-04.png"
     },
     {
       "name": "L",
@@ -3511,11 +3511,11 @@
     },
     {
       "name": "Le",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-01.png"
     },
     {
       "name": "Le",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LeEmby-02.png"
     },
     {
       "name": "Lemby",
@@ -3555,15 +3555,15 @@
     },
     {
       "name": "LevildeLuminia",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-03.png"
+    },
+    {
+      "name": "LevildeLuminia",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-01.png"
     },
     {
       "name": "LevildeLuminia",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-02.png"
-    },
-    {
-      "name": "LevildeLuminia",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LevildeLuminia-03.png"
     },
     {
       "name": "LevildeLuminia",
@@ -3575,15 +3575,15 @@
     },
     {
       "name": "LeWa",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LewaMovie-02.png"
+    },
+    {
+      "name": "LeWa",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LewaMovie-04.png"
     },
     {
       "name": "LeWa",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LewaMovie-03.png"
-    },
-    {
-      "name": "LeWa",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LewaMovie-02.png"
     },
     {
       "name": "LianLian",
@@ -3595,10 +3595,6 @@
     },
     {
       "name": "LiGe",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LiGe-02.png"
-    },
-    {
-      "name": "LiGe",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LiGe-01.png"
     },
     {
@@ -3606,12 +3602,16 @@
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LiGe-03.png"
     },
     {
-      "name": "LightingTime ShiGuang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LightingTime-02.png"
+      "name": "LiGe",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LiGe-02.png"
     },
     {
       "name": "LightingTime ShiGuang",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LightingTime-01.png"
+    },
+    {
+      "name": "LightingTime ShiGuang",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LightingTime-02.png"
     },
     {
       "name": "Lily",
@@ -3623,15 +3623,15 @@
     },
     {
       "name": "Lily",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-02.png"
+    },
+    {
+      "name": "Lily",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-01.png"
     },
     {
       "name": "Lily",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-03.png"
-    },
-    {
-      "name": "Lily",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LilyEmby-02.png"
     },
     {
       "name": "Lily_1",
@@ -3651,19 +3651,19 @@
     },
     {
       "name": "Liminal LinJing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-03.png"
-    },
-    {
-      "name": "Liminal LinJing",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-04.png"
     },
     {
       "name": "Liminal LinJing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-06.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-03.png"
     },
     {
       "name": "Liminal LinJing",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-05.png"
+    },
+    {
+      "name": "Liminal LinJing",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Liminal-06.png"
     },
     {
       "name": "Liminal_1",
@@ -3767,7 +3767,7 @@
     },
     {
       "name": "Lollipop BangBangTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-01.png"
     },
     {
       "name": "Lollipop BangBangTang",
@@ -3775,7 +3775,7 @@
     },
     {
       "name": "Lollipop BangBangTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-03.png"
     },
     {
       "name": "Lollipop BangBangTang",
@@ -3783,11 +3783,11 @@
     },
     {
       "name": "Lollipop BangBangTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-06.png"
     },
     {
       "name": "Lollipop BangBangTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-06.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LollipopEmby-05.png"
     },
     {
       "name": "Long",
@@ -3811,11 +3811,11 @@
     },
     {
       "name": "Loser 1111",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-04.png"
     },
     {
       "name": "Loser 1111",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Loser.1111-03.png"
     },
     {
       "name": "Loser 1111",
@@ -3851,11 +3851,11 @@
     },
     {
       "name": "LunarisVault",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LunarisVault-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LunarisVault-05.png"
     },
     {
       "name": "LunarisVault",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LunarisVault-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/LunarisVault-04.png"
     },
     {
       "name": "LunarisVault",
@@ -3963,7 +3963,7 @@
     },
     {
       "name": "MaiDangLao MDL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-02.png"
     },
     {
       "name": "MaiDangLao MDL",
@@ -3971,7 +3971,7 @@
     },
     {
       "name": "MaiDangLao MDL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MDLEmby-04.png"
     },
     {
       "name": "Maidanglao_gongyi",
@@ -4003,11 +4003,11 @@
     },
     {
       "name": "MaoWoYingShi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoWoYingShi-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoWoYingShi-04.png"
     },
     {
       "name": "MaoWoYingShi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoWoYingShi-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoWoYingShi-05.png"
     },
     {
       "name": "Maoyan",
@@ -4015,11 +4015,11 @@
     },
     {
       "name": "MaoYan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoyanEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoyanEmby-01.png"
     },
     {
       "name": "MaoYan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoyanEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MaoyanEmby-02.png"
     },
     {
       "name": "Maoyan_1",
@@ -4075,11 +4075,11 @@
     },
     {
       "name": "ME",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-02.png"
     },
     {
       "name": "ME",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MEEmby-03.png"
     },
     {
       "name": "ME BAVA",
@@ -4175,11 +4175,11 @@
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-03.png"
     },
     {
       "name": "Meowfly FeiLeGeMiao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Meowfly-04.png"
     },
     {
       "name": "Meowfly FeiLeGeMiao",
@@ -4311,11 +4311,11 @@
     },
     {
       "name": "MiXueBingCheng",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MixueEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MixueEmby-01.png"
     },
     {
       "name": "MiXueBingCheng",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MixueEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MixueEmby-02.png"
     },
     {
       "name": "Mogu",
@@ -4339,11 +4339,11 @@
     },
     {
       "name": "MoMei",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MoMei-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MoMei-02.png"
     },
     {
       "name": "MoMei",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MoMei-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/MoMei-01.png"
     },
     {
       "name": "MoMei",
@@ -4379,11 +4379,11 @@
     },
     {
       "name": "Mooncake YueBing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-05.png"
     },
     {
       "name": "Mooncake YueBing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Mooncake-04.png"
     },
     {
       "name": "MoonWind",
@@ -4499,11 +4499,11 @@
     },
     {
       "name": "Nayovo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nayovo-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nayovo-01.png"
     },
     {
       "name": "Nayovo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nayovo-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/Nayovo-02.png"
     },
     {
       "name": "Nayovo",
@@ -4623,11 +4623,11 @@
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-01.png"
     },
     {
       "name": "Nijigen ErCiYuan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NijigenEmby-02.png"
     },
     {
       "name": "Nijigen ErCiYuan",
@@ -4639,11 +4639,11 @@
     },
     {
       "name": "NiuBi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-01.png"
     },
     {
       "name": "NiuBi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NiuBi-02.png"
     },
     {
       "name": "NiuBi",
@@ -4663,11 +4663,11 @@
     },
     {
       "name": "NOX",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NoxEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NoxEmby-02.png"
     },
     {
       "name": "NOX",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NoxEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/NoxEmby-01.png"
     },
     {
       "name": "NOX",
@@ -4851,11 +4851,11 @@
     },
     {
       "name": "OrigamiArt ZheZhi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-02.png"
     },
     {
       "name": "OrigamiArt ZheZhi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/OrigamiArt-03.png"
     },
     {
       "name": "OrigamiArt ZheZhi",
@@ -4967,11 +4967,11 @@
     },
     {
       "name": "PandaTV XiongMao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PandaTV-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PandaTV-03.png"
     },
     {
       "name": "PandaTV XiongMao",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PandaTV-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PandaTV-02.png"
     },
     {
       "name": "PandaTV_1",
@@ -5059,11 +5059,11 @@
     },
     {
       "name": "Peach TaoZi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PeachEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PeachEmby-01.png"
     },
     {
       "name": "Peach TaoZi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PeachEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PeachEmby-02.png"
     },
     {
       "name": "Peach TaoZi",
@@ -5103,15 +5103,19 @@
     },
     {
       "name": "PiliPili",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-01.png"
-    },
-    {
-      "name": "PiliPili",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-02.png"
     },
     {
       "name": "PiliPili",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-01.png"
+    },
+    {
+      "name": "PiliPili",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-03.png"
+    },
+    {
+      "name": "PiliPili",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-04.png"
     },
     {
       "name": "PiliPili",
@@ -5120,10 +5124,6 @@
     {
       "name": "PiliPili",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-06.png"
-    },
-    {
-      "name": "PiliPili",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/PiliPili-04.png"
     },
     {
       "name": "PiliPili_1",
@@ -5427,11 +5427,11 @@
     },
     {
       "name": "QingShuiYingHua",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/QingShuiYingHua-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/QingShuiYingHua-01.png"
     },
     {
       "name": "QingShuiYingHua",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/QingShuiYingHua-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/QingShuiYingHua-02.png"
     },
     {
       "name": "Qiyuan",
@@ -5527,19 +5527,19 @@
     },
     {
       "name": "Roc",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-03.png"
-    },
-    {
-      "name": "Roc",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-04.png"
-    },
-    {
-      "name": "Roc",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-02.png"
     },
     {
       "name": "Roc",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-03.png"
+    },
+    {
+      "name": "Roc",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-05.png"
+    },
+    {
+      "name": "Roc",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/RocEmby-04.png"
     },
     {
       "name": "Roc",
@@ -5735,11 +5735,11 @@
     },
     {
       "name": "SaturDayLite SDL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayLite-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayLite-02.png"
     },
     {
       "name": "SaturDayLite SDL",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayLite-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/SaturDayLite-01.png"
     },
     {
       "name": "SaturDayLite SDL",
@@ -5815,11 +5815,11 @@
     },
     {
       "name": "sfcjorg FeiYue",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/sfcjorg-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/sfcjorg-03.png"
     },
     {
       "name": "sfcjorg FeiYue",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/sfcjorg-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/sfcjorg-04.png"
     },
     {
       "name": "Shark",
@@ -5835,19 +5835,19 @@
     },
     {
       "name": "ShaYu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-02.png"
-    },
-    {
-      "name": "ShaYu",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-03.png"
     },
     {
       "name": "ShaYu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-02.png"
     },
     {
       "name": "ShaYu",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-04.png"
+    },
+    {
+      "name": "ShaYu",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShayuEmby-05.png"
     },
     {
       "name": "ShaYu",
@@ -5879,6 +5879,10 @@
     },
     {
       "name": "ShenYeShiTang",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-01.png"
+    },
+    {
+      "name": "ShenYeShiTang",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-02.png"
     },
     {
@@ -5887,15 +5891,11 @@
     },
     {
       "name": "ShenYeShiTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-04.png"
     },
     {
       "name": "ShenYeShiTang",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-05.png"
-    },
-    {
-      "name": "ShenYeShiTang",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/DeepEmby-04.png"
     },
     {
       "name": "ShiFen",
@@ -5975,11 +5975,11 @@
     },
     {
       "name": "ShunYing LingChe",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShunYing-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShunYing-02.png"
     },
     {
       "name": "ShunYing LingChe",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShunYing-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ShunYing-01.png"
     },
     {
       "name": "Shupian2",
@@ -6127,19 +6127,19 @@
     },
     {
       "name": "Star",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-01.png"
-    },
-    {
-      "name": "Star",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-02.png"
     },
     {
       "name": "Star",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-03.png"
     },
     {
       "name": "Star",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-01.png"
+    },
+    {
+      "name": "Star",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/StarEmby-04.png"
     },
     {
       "name": "Star_emby",
@@ -6495,11 +6495,11 @@
     },
     {
       "name": "Unbound WoShenWuJu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-02.png"
     },
     {
       "name": "Unbound WoShenWuJu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/UnboundEmby-03.png"
     },
     {
       "name": "Unbound_emby",
@@ -6615,19 +6615,19 @@
     },
     {
       "name": "W",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-01.png"
-    },
-    {
-      "name": "W",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-02.png"
     },
     {
       "name": "W",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-01.png"
     },
     {
       "name": "W",
       "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-03.png"
+    },
+    {
+      "name": "W",
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WEmby-04.png"
     },
     {
       "name": "Walnut",
@@ -6635,11 +6635,11 @@
     },
     {
       "name": "Walnut",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-03.png"
     },
     {
       "name": "Walnut",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-02.png"
     },
     {
       "name": "Walnut",
@@ -6647,11 +6647,11 @@
     },
     {
       "name": "Walnut",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-06.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-05.png"
     },
     {
       "name": "Walnut",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/WalnutEmby-06.png"
     },
     {
       "name": "Warner Bros",
@@ -6835,11 +6835,11 @@
     },
     {
       "name": "XiaoXiaMi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiaoXiaMi-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiaoXiaMi-03.png"
     },
     {
       "name": "XiaoXiaMi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiaoXiaMi-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiaoXiaMi-04.png"
     },
     {
       "name": "Xiaoya",
@@ -6863,11 +6863,11 @@
     },
     {
       "name": "XiaTian",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiatianEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiatianEmby-01.png"
     },
     {
       "name": "XiaTian",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiatianEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/XiatianEmby-02.png"
     },
     {
       "name": "XiaTian",
@@ -6931,11 +6931,11 @@
     },
     {
       "name": "XYZ XiaoYiZi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/xyzemby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/xyzemby-01.png"
     },
     {
       "name": "XYZ XiaoYiZi",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/xyzemby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/xyzemby-02.png"
     },
     {
       "name": "XYZ_1",
@@ -7043,11 +7043,11 @@
     },
     {
       "name": "Yomo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-02.png"
     },
     {
       "name": "Yomo",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YomoEmby-03.png"
     },
     {
       "name": "Yomo",
@@ -7067,11 +7067,11 @@
     },
     {
       "name": "Youno",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-01.png"
     },
     {
       "name": "Youno",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YounoEmby-02.png"
     },
     {
       "name": "Youno",
@@ -7095,11 +7095,11 @@
     },
     {
       "name": "YourFYTing FangYingTing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YourFYTing-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YourFYTing-02.png"
     },
     {
       "name": "YourFYTing FangYingTing",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YourFYTing-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YourFYTing-01.png"
     },
     {
       "name": "Youtube",
@@ -7175,11 +7175,11 @@
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-03.png"
     },
     {
       "name": "YueZhiXuan",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-03.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YueZhiXuan-02.png"
     },
     {
       "name": "YueZhiXuan",
@@ -7243,11 +7243,11 @@
     },
     {
       "name": "YuSen",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YusenEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YusenEmby-02.png"
     },
     {
       "name": "YuSen",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YusenEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/YusenEmby-01.png"
     },
     {
       "name": "YuSen",
@@ -7295,11 +7295,11 @@
     },
     {
       "name": "ZheZhiMao ZZM",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZZMEmby-04.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZZMEmby-05.png"
     },
     {
       "name": "ZheZhiMao ZZM",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZZMEmby-05.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZZMEmby-04.png"
     },
     {
       "name": "ZheZhiMao ZZM",
@@ -7363,11 +7363,11 @@
     },
     {
       "name": "ZouLu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZouluEmby-01.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZouluEmby-02.png"
     },
     {
       "name": "ZouLu",
-      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZouluEmby-02.png"
+      "url": "https://pro.coke.dpdns.org/https://raw.githubusercontent.com/Tegfe/emby-images/main/images/ZouluEmby-01.png"
     },
     {
       "name": "Zox",
